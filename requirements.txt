@@ -1,0 +1,10 @@
+langchain
+langchain-community
+langchain-core
+qdrant-client
+python-dotenv
+pypdf
+unstructured[pdf,image]
+Pillow
+pytesseract
+langchain-google-genai
