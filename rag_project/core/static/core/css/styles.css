@@ -1,0 +1,19 @@
+/* core/static/core/css/style.css */
+/* Custom scrollbar for chat history */
+#chat-history::-webkit-scrollbar {
+    width: 8px;
+}
+
+#chat-history::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+#chat-history::-webkit-scrollbar-thumb {
+    background-color: #4a5568; /* dark:bg-gray-700 */
+    border-radius: 20px;
+    border: 3px solid transparent;
+}
+
+.dark #chat-history::-webkit-scrollbar-thumb {
+    background-color: #718096; /* dark:bg-gray-600 */
+}

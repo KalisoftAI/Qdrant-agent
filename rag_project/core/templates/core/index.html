@@ -1,0 +1,57 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" class="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Agent for Healthcare</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="{% static 'core/css/style.css' %}">
+</head>
+<body class="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 font-sans antialiased transition-colors duration-300">
+
+    {% include 'partials/navbar.html' %}
+
+    <main class="pt-24 pb-12">
+        <div class="max-w-4xl mx-auto px-4">
+            
+            <section class="text-center mb-16">
+                <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-white mb-4">
+                    Intelligent Assistant for <span class="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-500">Healthcare Professionals</span>
+                </h1>
+                <p class="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+                    Get instant, accurate answers from your internal documents. Powered by Gemini.
+                </p>
+            </section>
+
+            <section id="chat-container" class="bg-white dark:bg-gray-800 rounded-2xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden">
+                <div id="chat-history" class="p-6 h-96 overflow-y-auto space-y-6">
+                    <div class="flex items-start gap-3">
+                        <div class="flex-shrink-0 w-10 h-10 rounded-full bg-gradient-to-br from-teal-400 to-blue-500 flex items-center justify-center text-white font-bold">
+                            AI
+                        </div>
+                        <div class="bg-gray-100 dark:bg-gray-700 p-4 rounded-xl rounded-tl-none max-w-lg">
+                            <p>Hello! I am ready to assist you. Ask me anything about your documents.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="p-4 bg-gray-50 dark:bg-gray-800/50 border-t border-gray-200 dark:border-gray-700">
+                    <form id="chat-form" class="flex items-center gap-4">
+                        {% csrf_token %}
+                        <input type="text" id="question-input" class="w-full bg-gray-100 dark:bg-gray-700 border-gray-300 dark:border-gray-600 text-gray-900 dark:text-white text-sm rounded-lg focus:ring-teal-500 focus:border-teal-500 block p-3 transition" placeholder="Ask a question..." required>
+                        <button type="submit" id="submit-button" class="inline-flex items-center justify-center p-3 text-sm font-medium text-white bg-teal-600 rounded-lg hover:bg-teal-700 focus:ring-4 focus:outline-none focus:ring-teal-300 dark:bg-teal-500 dark:hover:bg-teal-600 dark:focus:ring-teal-800 transition-colors disabled:opacity-50 disabled:cursor-not-allowed">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M12 5l7 7-7 7"></path></svg>
+                            <span class="sr-only">Send message</span>
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+    
+    {% include 'partials/footer.html' %}
+
+    <script src="{% static 'core/js/main.js' %}"></script>
+</body>
+</html>
