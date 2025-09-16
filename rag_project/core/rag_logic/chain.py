@@ -1,65 +1,71 @@
-import qdrant_client
-from langchain_community.vectorstores import Qdrant
-from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGenerativeAI
+# core/rag_logic/chain.py
 from langchain_core.prompts import ChatPromptTemplate
-from langchain_core.runnables import RunnablePassthrough
+from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.output_parsers import StrOutputParser
-from . import config # <-- Relative import
+from . import config
 
-def get_rag_chain():
+# Define the stages of our conversation
+CONVERSATION_STAGES = {
+    'GET_INITIAL_PROBLEM': {
+        'prompt': "To start, could you please tell me about the main problem or symptoms you are experiencing?",
+        'next_stage': 'ASK_DIET'
+    },
+    'ASK_DIET': {
+        'prompt': "Thank you for sharing. Could you describe your typical daily diet? What do you usually eat for breakfast, lunch, and dinner?",
+        'next_stage': 'ASK_ROUTINE'
+    },
+    'ASK_ROUTINE': {
+        'prompt': "That's helpful. What is your daily routine like? Are you generally active, or do you have a sedentary job?",
+        'next_stage': 'ASK_SLEEP'
+    },
+    'ASK_SLEEP': {
+        'prompt': "Understood. How would you describe your sleep cycle? How many hours of sleep do you get per night on average?",
+        'next_stage': 'ASK_SYMPTOMS'
+    },
+    'ASK_SYMPTOMS': {
+        'prompt': "Lastly, could you list any other symptoms you've been feeling? For example, frequent urination, excessive thirst, unexplained weight loss, fatigue, blurred vision, or anything else, even if it seems minor like a cold or sneezing.",
+        'next_stage': 'ANALYZE'
+    }
+}
+
+# --- THIS IS THE CORRECTED PROMPT ---
+ANALYSIS_PROMPT_TEMPLATE = """
+You are an expert AI medical assistant specializing in diabetes screening.
+Your task is to analyze the following conversation transcript with a patient and determine the potential severity of their condition.
+
+**Conversation Transcript:**
+{chat_history}
+
+**Your Analysis Instructions:**
+
+1.  **Review the entire transcript.** Pay close attention to the patient's diet, daily routine, sleep cycle, and listed symptoms.
+2.  **Categorize the risk level** as either "Minor" or "Major" based on classic diabetes indicators.
+3.  **Generate a response based on the category:**
+    * If the risk is **"Minor"**, generate an encouraging message with a sample one-week wellness routine.
+    * If the risk is **"Major"**, generate a firm, clear, and empathetic message strongly advising the patient to consult a doctor as soon as possible.
+
+4.  **CRITICAL INSTRUCTION: Add a conclusion tag.** At the very beginning of your response, you MUST include a tag on its own line: either "[CONCLUSION: MAJOR]" if you are advising them to see a doctor, or "[CONCLUSION: MINOR]" if you are providing a wellness routine. This tag is for system use.
+
+**Example for a Major Case:**
+[CONCLUSION: MAJOR]
+I understand you're experiencing several concerning symptoms. Based on our conversation, I strongly advise you to consult a doctor...
+
+**Example for a Minor Case:**
+[CONCLUSION: MINOR]
+Thank you for sharing this information. While your symptoms don't point to a major issue, we can work on a wellness plan...
+"""
+
+def get_analysis_chain():
     """
-    Initializes and returns a RAG chain powered by Google Gemini.
+    Returns a LangChain chain that takes a conversation history and performs
+    the final analysis to determine if the condition is minor or major.
     """
-    # 1. Initialize Gemini Embeddings and Vector Store
-    embeddings = GoogleGenerativeAIEmbeddings(model=config.EMBEDDING_MODEL) # <-- Changed to Gemini
+    prompt = ChatPromptTemplate.from_template(ANALYSIS_PROMPT_TEMPLATE)
+    llm = ChatGoogleGenerativeAI(model=config.LLM_MODEL, temperature=0.5)
     
-    client = qdrant_client.QdrantClient(host=config.QDRANT_HOST, port=config.QDRANT_PORT)
-    
-    vector_store = Qdrant(
-        client=client,
-        collection_name=config.COLLECTION_NAME,
-        embeddings=embeddings
-    )
-    
-    retriever = vector_store.as_retriever(search_kwargs={"k": 10})
-
-    # 2. Define the Prompt Template (no change needed here)
-    prompt_template = """
-    You are an intelligent healthcare assistant specialized in diabetes care.
-    Use the following retrieved context to answer the user’s question:
-
-    Context: {context}
-    Question: {question}
-
-    Instructions:
-
-    Base your answer strictly on the information provided in the context (related to diabetes symptoms, complications, treatments, lifestyle management, or medications).
-
-    If the answer is not available in the context, clearly state: “The information is not available in the provided documents.”
-
-    Do not invent or assume information beyond the given context.
-
-    If the context indicates that the patient has major symptoms of diabetes or related complications (e.g., severe fatigue, blurred vision, chest pain, high/low blood sugar emergencies, foot ulcers), advise them to seek immediate doctor’s consultation or go to the hospital.
-
-    After providing the answer, politely ask: “Would you like me to help you book an appointment with a diabetes specialist?”
-
-    Answer:
-    """
-    prompt = ChatPromptTemplate.from_template(prompt_template)
-
-    # 3. Initialize the Gemini LLM
-    llm = ChatGoogleGenerativeAI(model=config.LLM_MODEL, temperature=0.3) # <-- Changed to Gemini
-
-    # 4. Define a function to format the retrieved documents
-    def format_docs(docs):
-        return "\n\n".join(doc.page_content for doc in docs)
-
-    # 5. Build the RAG chain using LCEL
-    rag_chain = (
-        {"context": retriever | format_docs, "question": RunnablePassthrough()}
-        | prompt
+    analysis_chain = (
+        prompt
         | llm
         | StrOutputParser()
     )
-    
-    return rag_chain
+    return analysis_chain

@@ -1,0 +1,109 @@
+{
+  "patient_id": "P002",
+  "conversation_date": "2025-09-15",
+  "case_type": "Regular Scheduled Follow-up",
+  "intent": "Regular_Scheduled_Followup",
+  "summary": "The patient came for a routine diabetes follow-up. His fasting blood sugar levels are mostly controlled, but post-meal levels are slightly high. HbA1c improved from 7.8% to 7.1%. Doctor advised reducing dinner carbohydrates, increasing water intake, managing stress, and continuing daily walking. No current complications like neuropathy or vision issues reported.",
+  "recommendations": [
+    "Reduce dinner carbohydrate intake: only one whole-wheat roti at dinner with more vegetables or dal.",
+    "Continue daily walking for at least 30 minutes.",
+    "Increase water intake to 2.5–3 liters daily.",
+    "Practice relaxation techniques to improve sleep and reduce stress.",
+    "Check feet daily for any injuries or numbness.",
+    "Schedule next follow-up in three months."
+  ],
+  "transcript": [
+    {
+      "speaker": "Doctor",
+      "line": "Hello, Mr. Sharma. Good to see you again. Please, have a seat. How have you been since your last visit three months ago?"
+    },
+    {
+      "speaker": "Patient",
+      "line": "Hello, Doctor. I've been doing reasonably well, thank you. I've been taking my medications as you prescribed and trying to walk for at least 30 minutes every day."
+    },
+    {
+      "speaker": "Doctor",
+      "line": "That's excellent to hear. And have you been checking your blood sugar levels at home?"
+    },
+    {
+      "speaker": "Patient",
+      "line": "Yes, mostly. My fasting levels are usually between 100 and 120 milligrams per deciliter, but after meals, they sometimes go up to around 180 to 190, especially if I eat out."
+    },
+    {
+      "speaker": "Doctor",
+      "line": "Okay, that's good information. I have your latest lab reports here. Your HbA1c is now 7.1 percent, which is a nice improvement from 7.8 percent last time. Your efforts are clearly paying off. Your cholesterol levels are also looking good, which is very encouraging."
+    },
+    {
+      "speaker": "Patient",
+      "line": "Oh, that's a relief! I was worried because the festival season was last month, and it was a bit difficult to control my diet completely."
+    },
+    {
+      "speaker": "Doctor",
+      "line": "That's completely understandable. The key is to get back on track quickly, and you've done a great job with that. The post-meal readings are a little higher than we'd like, though. Tell me a bit about your diet. Are you managing to control your carbohydrate intake, like rice and rotis?"
+    },
+    {
+      "speaker": "Patient",
+      "line": "I've reduced the amount of rice, but I find it hard to cut down on rotis. I usually have two for lunch and two for dinner."
+    },
+    {
+      "speaker": "Doctor",
+      "line": "I see. Let's try making a small adjustment. For dinner, try to have just one whole-wheat roti and add more vegetables or a bowl of dal to your plate. This will help manage those after-meal spikes. We'll continue with the same medication for now, as it seems to be working well."
+    },
+    {
+      "speaker": "Patient",
+      "line": "Okay, Doctor, I can definitely try that. One roti at night and more vegetables."
+    },
+    {
+      "speaker": "Doctor",
+      "line": "Great. How about your water intake? Are you drinking enough water throughout the day?"
+    },
+    {
+      "speaker": "Patient",
+      "line": "I try to, but I think I only drink about one and a half liters a day."
+    },
+    {
+      "speaker": "Doctor",
+      "line": "Try to aim for at least two and a half to three liters of water each day. Staying hydrated is important for your kidneys, especially when managing diabetes."
+    },
+    {
+      "speaker": "Doctor",
+      "line": "Also, how has your sleep been lately? Are you getting seven to eight hours of restful sleep?"
+    },
+    {
+      "speaker": "Patient",
+      "line": "Not really, Doctor. I usually sleep around six hours, and sometimes I wake up feeling restless or worried about work."
+    },
+    {
+      "speaker": "Doctor",
+      "line": "Stress can impact your blood sugar levels significantly. Try some relaxation techniques before bed, like deep breathing, light stretching, or even a short meditation session."
+    },
+    {
+      "speaker": "Doctor",
+      "line": "Do you have any other concerns, like numbness or tingling in your feet, frequent headaches, or changes in your vision?"
+    },
+    {
+      "speaker": "Patient",
+      "line": "No, nothing like that. I feel fine otherwise, just some occasional tiredness by the end of the day."
+    },
+    {
+      "speaker": "Doctor",
+      "line": "That's good to hear. Continue checking your feet daily for cuts or sores and wear comfortable shoes. If you ever notice any numbness, tingling, or wounds that heal slowly, let me know immediately."
+    },
+    {
+      "speaker": "Doctor",
+      "line": "We'll keep the same medication for now. Let's focus on improving your diet a bit more and maintaining your walking routine. We'll aim to get your HbA1c below seven percent at the next visit."
+    },
+    {
+      "speaker": "Patient",
+      "line": "Thank you, Doctor. I'll make sure to follow these instructions carefully."
+    },
+    {
+      "speaker": "Doctor",
+      "line": "You're doing really well, Mr. Sharma. Keep up the great work. We'll meet again in three months for another review and to check your progress."
+    },
+    {
+      "speaker": "Patient",
+      "line": "Thanks again, Doctor. I appreciate your guidance."
+    }
+  ]
+}
