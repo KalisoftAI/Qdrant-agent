@@ -1,5 +1,5 @@
 
-# 🩺 Diabetes RAG System with Qdrant & Google Gemini
+# 🩺 Agentic RAG System for Diabetes with Qdrant & Google Gemini
 
 
 ## The Problem
