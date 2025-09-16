@@ -1,6 +1,5 @@
 {% extends 'base.html' %}
 {% load static %}
-
 {% block content %}
 <div class="max-w-4xl mx-auto px-4 space-y-16">
     <section id="chat-container" class="bg-white dark:bg-gray-800 rounded-2xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden">
@@ -10,20 +9,53 @@
                 Start Over
             </button>
         </div>
-        
         <div id="chat-history" class="p-6 h-96 overflow-y-auto space-y-6"></div>
-        
         <div class="p-4 bg-gray-50 dark:bg-gray-800/50 border-t border-gray-200 dark:border-gray-700">
-            <form id="chat-form" class="flex items-center gap-4">
+            <form id="chat-form" class="flex items-center gap-2">
                 {% csrf_token %}
+                <button type="button" title="Upload file (coming soon)" class="p-3 text-gray-500 dark:text-gray-400 bg-gray-100 dark:bg-gray-700 rounded-lg cursor-not-allowed opacity-50">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M8 4a3 3 0 00-3 3v4a3 3 0 006 0V7a1 1 0 112 0v4a5 5 0 01-10 0V7a5 5 0 0110 0v4a3 3 0 11-6 0V7a1 1 0 012 0v4a1 1 0 102 0V7a3 3 0 00-3-3z" clip-rule="evenodd"></path></svg>
+                </button>
                 <input type="text" id="question-input" class="w-full bg-gray-100 dark:bg-gray-700 border-gray-300 dark:border-gray-600 text-gray-900 dark:text-white text-sm rounded-lg focus:ring-teal-500 focus:border-teal-500 block p-3 transition" placeholder="Type your answer here..." required>
-                <button type="submit" id="submit-button" class="inline-flex items-center justify-center p-3 text-sm font-medium text-white bg-teal-600 rounded-lg hover:bg-teal-700 focus:ring-4 focus:outline-none focus:ring-teal-300 dark:bg-teal-500 dark:hover:bg-teal-600 dark:focus:ring-teal-800 transition-colors disabled:opacity-50 disabled:cursor-not-allowed">
+                <button type="submit" id="submit-button" class="inline-flex items-center justify-center p-3 text-sm font-medium text-white bg-teal-600 rounded-lg hover:bg-teal-700">
                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M12 5l7 7-7 7"></path></svg>
                 </button>
             </form>
         </div>
     </section>
 
+    <section id="summary-section" class="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-6 border border-gray-200 dark:border-gray-700">
+        <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">Summaries from Your Doctor</h2>
+        <div id="summary-list" class="space-y-4">
+            {% for summary in doctor_summaries %}
+            <div class="p-4 rounded-lg border dark:border-gray-700 bg-indigo-50 dark:bg-indigo-900/30">
+                <p class="text-sm text-gray-500 dark:text-gray-400">
+                    <strong>Summary from Dr. {{ summary.doctor.first_name }}</strong> regarding their analysis on {{ summary.created_at|date:"F d, Y" }}
+                </p>
+                <p class="mt-2 text-gray-800 dark:text-gray-200">{{ summary.patient_summary|linebreaksbr }}</p>
+            </div>
+            {% empty %}
+            <p class="text-gray-500 dark:text-gray-400">You have no clinical summaries from your doctors yet.</p>
+            {% endfor %}
+        </div>
+    </section>
+    
+    <section id="notes-section" class="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-6 border border-gray-200 dark:border-gray-700">
+        <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">Doctor's Notes & Remedies</h2>
+        <div id="notes-list" class="space-y-4">
+            {% for note in doctors_notes %}
+            <div class="p-4 rounded-lg border dark:border-gray-700 bg-sky-50 dark:bg-sky-900/30">
+                <p class="text-sm text-gray-500 dark:text-gray-400">
+                    <strong>Note from Dr. {{ note.doctor.first_name }} {{ note.doctor.last_name }}</strong> on {{ note.created_at|date:"F d, Y" }}
+                </p>
+                <p class="mt-2 text-gray-800 dark:text-gray-200">{{ note.note|linebreaksbr }}</p>
+            </div>
+            {% empty %}
+            <p class="text-gray-500 dark:text-gray-400">You have no notes from your doctors yet.</p>
+            {% endfor %}
+        </div>
+    </section>
+    
     <section id="appointments-section" class="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-6 border border-gray-200 dark:border-gray-700">
         <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">My Appointments</h2>
         <div id="appointments-list" class="space-y-4">
@@ -39,4 +71,5 @@
         </div>
     </div>
 </div>
+{# REMOVED SCRIPT TAG FROM HERE #}
 {% endblock %}

@@ -32,6 +32,7 @@ class DoctorSignUpView(CreateView):
     def form_valid(self, form):
         user = form.save()
         login(self.request, user)
+        # --- THIS IS THE FIX ---
         # Redirect doctors to their new dashboard after registration
         return redirect('doctor_tools:dashboard')
 
@@ -43,7 +44,6 @@ def register_selection(request):
 @login_required
 def login_redirect_view(request):
     if request.user.role == 'DOCTOR':
-        # UPDATED: Redirect to the new app's dashboard
         return redirect('doctor_tools:dashboard')
     elif request.user.role == 'PATIENT':
         return redirect('index')

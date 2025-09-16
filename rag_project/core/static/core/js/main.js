@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // --- Chat & Appointment Logic ---
+    // --- REFACTORED CHAT & APPOINTMENT LOGIC ---
     const chatForm = document.getElementById('chat-form');
     if (chatForm) {
         const questionInput = document.getElementById('question-input');
@@ -46,26 +46,9 @@ document.addEventListener('DOMContentLoaded', function () {
         const modal = document.getElementById('booking-modal');
         const modalBackdrop = document.getElementById('booking-modal-backdrop');
         const modalPanel = document.getElementById('modal-panel');
-        let originalFormSubmitHandler = null;
 
-        const startNewChat = async () => {
-            const response = await fetch('/reset-chat/', { method: 'GET' });
-            const data = await response.json();
-            chatHistory.innerHTML = '';
-            appendMessage(data.answer, 'bot');
-            setFormEnabled(true);
-            fetchPatientAppointments();
-            if (originalFormSubmitHandler) {
-                chatForm.onsubmit = originalFormSubmitHandler;
-            } else {
-                 chatForm.addEventListener('submit', mainChatSubmitHandler);
-            }
-        };
-        
-        startNewChat();
-        resetButton.addEventListener('click', startNewChat);
-
-        const mainChatSubmitHandler = async function (e) {
+        // --- Step 1: Define the two different behaviors for the form ---
+        const mainChatSubmitHandler = async (e) => {
             e.preventDefault();
             const question = questionInput.value.trim();
             if (!question) return;
@@ -87,7 +70,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 appendMessage(data.answer, 'bot');
 
                 if (data.is_complete) {
-                    setFormEnabled(false); 
+                    setFormEnabled(false);
                     appendMessage("Our screening is complete. You can start over by clicking the 'Start Over' button.", 'bot', false, false, 'system');
                     if (data.follow_up_action) {
                         handleFollowUpAction(data.follow_up_action);
@@ -101,10 +84,52 @@ document.addEventListener('DOMContentLoaded', function () {
                 setFormEnabled(true);
             }
         };
+        
+        const locationSubmitHandler = async (e) => {
+            e.preventDefault();
+            const location = questionInput.value.trim();
+            if (!location) return;
 
-        chatForm.addEventListener('submit', mainChatSubmitHandler);
-        originalFormSubmitHandler = mainChatSubmitHandler;
+            setFormEnabled(false);
+            appendMessage(location, 'user');
+            const thinkingIndicator = appendMessage('', 'bot', true);
 
+            try {
+                const response = await fetch(`/appointments/api/find-hospitals/?location=${location}`);
+                const data = await response.json();
+                thinkingIndicator.remove();
+                showHospitalButtons(data.hospitals);
+            } catch (error) {
+                thinkingIndicator.remove();
+                appendMessage("Sorry, I encountered an error finding hospitals. Please try again.", 'bot', false, true);
+                setFormEnabled(true);
+            } finally {
+                // Restore the original chat handler
+                chatForm.removeEventListener('submit', locationSubmitHandler);
+                chatForm.addEventListener('submit', mainChatSubmitHandler);
+            }
+        };
+
+        // --- Step 2: Set up the initial state and reset logic ---
+        const startNewChat = async () => {
+            const response = await fetch('/reset-chat/', { method: 'GET' });
+            const data = await response.json();
+            chatHistory.innerHTML = '';
+            appendMessage(data.answer, 'bot');
+            setFormEnabled(true);
+            fetchPatientAppointments();
+            
+            // This is the key: always ensure ONLY the main listener is active on reset.
+            chatForm.removeEventListener('submit', locationSubmitHandler);
+            chatForm.removeEventListener('submit', mainChatSubmitHandler); // Remove first to prevent duplicates
+            chatForm.addEventListener('submit', mainChatSubmitHandler);
+        };
+
+        startNewChat(); // Set up the chat initially
+        resetButton.addEventListener('click', startNewChat);
+
+        // --- Step 3: All other helper functions ---
+        
         function setFormEnabled(enabled) {
             questionInput.disabled = !enabled;
             submitButton.disabled = !enabled;
@@ -183,26 +208,9 @@ document.addEventListener('DOMContentLoaded', function () {
         function showLocationStep() {
             appendMessage("Of course. To find hospitals near you, please tell me your location (e.g., city, state).", 'bot');
             setFormEnabled(true);
-            chatForm.onsubmit = async (e) => {
-                e.preventDefault();
-                const location = questionInput.value.trim();
-                if (!location) return;
-                setFormEnabled(false);
-                appendMessage(location, 'user');
-                const thinkingIndicator = appendMessage('', 'bot', true);
-                try {
-                    const response = await fetch(`/appointments/api/find-hospitals/?location=${location}`);
-                    const data = await response.json();
-                    thinkingIndicator.remove();
-                    showHospitalButtons(data.hospitals);
-                } catch (error) {
-                    thinkingIndicator.remove();
-                    appendMessage("Sorry, I encountered an error finding hospitals. Please try again.", 'bot', false, true);
-                    setFormEnabled(true);
-                } finally {
-                    chatForm.onsubmit = mainChatSubmitHandler;
-                }
-            };
+            // Swap event listeners
+            chatForm.removeEventListener('submit', mainChatSubmitHandler);
+            chatForm.addEventListener('submit', locationSubmitHandler);
         }
 
         function showHospitalButtons(hospitals) {
@@ -221,7 +229,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     showConfirmationStep({name: hospital.name, address: hospital.address});
                 };
                 hospitalContainer.appendChild(button);
-            });
+});
             chatHistory.appendChild(hospitalContainer);
             chatHistory.scrollTop = chatHistory.scrollHeight;
         }
@@ -251,6 +259,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const response = await fetch('/api/my-appointments/');
             const data = await response.json();
             const listEl = document.getElementById('appointments-list');
+            if (!listEl) return;
             if (data.appointments.length === 0) {
                 listEl.innerHTML = `<p class="text-gray-500 dark:text-gray-400">You have no appointments.</p>`; return;
             }

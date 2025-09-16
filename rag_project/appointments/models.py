@@ -24,3 +24,12 @@ class Appointment(models.Model):
 
     def __str__(self):
         return f"Appointment for {self.patient.first_name} at {self.requested_hospital_name} ({self.status})"
+
+class DoctorNote(models.Model):
+    patient = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='notes_for_patient')
+    doctor = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='notes_by_doctor')
+    note = models.TextField()
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return f"Note for {self.patient.first_name} by Dr. {self.doctor.first_name}"

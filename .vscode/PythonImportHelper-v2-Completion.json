@@ -177,6 +177,14 @@
         "documentation": {}
     },
     {
+        "label": "ChatGoogleGenerativeAI",
+        "importPath": "langchain_google_genai",
+        "description": "langchain_google_genai",
+        "isExtraImport": true,
+        "detail": "langchain_google_genai",
+        "documentation": {}
+    },
+    {
         "label": "GoogleGenerativeAIEmbeddings",
         "importPath": "langchain_google_genai",
         "description": "langchain_google_genai",
@@ -555,6 +563,38 @@
         "documentation": {}
     },
     {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
         "label": "migrations",
         "importPath": "django.db",
         "description": "django.db",
@@ -604,6 +644,38 @@
     },
     {
         "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
         "importPath": "django.db",
         "description": "django.db",
         "isExtraImport": true,
@@ -875,6 +947,14 @@
         "documentation": {}
     },
     {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
         "label": "CreateView",
         "importPath": "django.views.generic",
         "description": "django.views.generic",
@@ -971,6 +1051,14 @@
         "documentation": {}
     },
     {
+        "label": "User",
+        "importPath": "accounts.models",
+        "description": "accounts.models",
+        "isExtraImport": true,
+        "detail": "accounts.models",
+        "documentation": {}
+    },
+    {
         "label": "base64",
         "kind": 6,
         "isExtraImport": true,
@@ -988,11 +1076,35 @@
         "documentation": {}
     },
     {
+        "label": "DoctorNote",
+        "importPath": "appointments.models",
+        "description": "appointments.models",
+        "isExtraImport": true,
+        "detail": "appointments.models",
+        "documentation": {}
+    },
+    {
         "label": "Appointment",
         "importPath": "appointments.models",
         "description": "appointments.models",
         "isExtraImport": true,
         "detail": "appointments.models",
+        "documentation": {}
+    },
+    {
+        "label": "DoctorNote",
+        "importPath": "appointments.models",
+        "description": "appointments.models",
+        "isExtraImport": true,
+        "detail": "appointments.models",
+        "documentation": {}
+    },
+    {
+        "label": "DoctorQuery",
+        "importPath": "doctor_tools.models",
+        "description": "doctor_tools.models",
+        "isExtraImport": true,
+        "detail": "doctor_tools.models",
         "documentation": {}
     },
     {
@@ -1020,12 +1132,28 @@
         "documentation": {}
     },
     {
+        "label": "rag_config",
+        "importPath": "doctor_tools.rag_logic",
+        "description": "doctor_tools.rag_logic",
+        "isExtraImport": true,
+        "detail": "doctor_tools.rag_logic",
+        "documentation": {}
+    },
+    {
         "label": "nest_asyncio",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "nest_asyncio",
         "description": "nest_asyncio",
         "detail": "nest_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "ChatSession",
+        "importPath": "core.models",
+        "description": "core.models",
+        "isExtraImport": true,
+        "detail": "core.models",
         "documentation": {}
     },
     {
@@ -1730,7 +1858,7 @@
         "kind": 2,
         "importPath": "rag_project.accounts.views",
         "description": "rag_project.accounts.views",
-        "peekOfCode": "def register_selection(request):\n    return render(request, 'accounts/register_selection.html')\n@login_required\ndef login_redirect_view(request):\n    if request.user.role == 'DOCTOR':\n        # UPDATED: Redirect to the new app's dashboard\n        return redirect('doctor_tools:dashboard')\n    elif request.user.role == 'PATIENT':\n        return redirect('index')\n    else:",
+        "peekOfCode": "def register_selection(request):\n    return render(request, 'accounts/register_selection.html')\n@login_required\ndef login_redirect_view(request):\n    if request.user.role == 'DOCTOR':\n        return redirect('doctor_tools:dashboard')\n    elif request.user.role == 'PATIENT':\n        return redirect('index')\n    else:\n        return redirect('accounts:login')",
         "detail": "rag_project.accounts.views",
         "documentation": {}
     },
@@ -1739,7 +1867,7 @@
         "kind": 2,
         "importPath": "rag_project.accounts.views",
         "description": "rag_project.accounts.views",
-        "peekOfCode": "def login_redirect_view(request):\n    if request.user.role == 'DOCTOR':\n        # UPDATED: Redirect to the new app's dashboard\n        return redirect('doctor_tools:dashboard')\n    elif request.user.role == 'PATIENT':\n        return redirect('index')\n    else:\n        return redirect('accounts:login')",
+        "peekOfCode": "def login_redirect_view(request):\n    if request.user.role == 'DOCTOR':\n        return redirect('doctor_tools:dashboard')\n    elif request.user.role == 'PATIENT':\n        return redirect('index')\n    else:\n        return redirect('accounts:login')",
         "detail": "rag_project.accounts.views",
         "documentation": {}
     },
@@ -1767,6 +1895,15 @@
         "importPath": "rag_project.appointments.models",
         "description": "rag_project.appointments.models",
         "peekOfCode": "class Appointment(models.Model):\n    class Status(models.TextChoices):\n        PENDING = 'PENDING', 'Pending'\n        CONFIRMED = 'CONFIRMED', 'Confirmed'\n        CANCELLED = 'CANCELLED', 'Cancelled'\n    patient = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='patient_appointments')\n    doctor = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.SET_NULL, null=True, blank=True, related_name='doctor_appointments')\n    requested_hospital_name = models.CharField(max_length=255)\n    requested_hospital_address = models.TextField()\n    status = models.CharField(max_length=10, choices=Status.choices, default=Status.PENDING)",
+        "detail": "rag_project.appointments.models",
+        "documentation": {}
+    },
+    {
+        "label": "DoctorNote",
+        "kind": 6,
+        "importPath": "rag_project.appointments.models",
+        "description": "rag_project.appointments.models",
+        "peekOfCode": "class DoctorNote(models.Model):\n    patient = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='notes_for_patient')\n    doctor = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='notes_by_doctor')\n    note = models.TextField()\n    created_at = models.DateTimeField(auto_now_add=True)\n    def __str__(self):\n        return f\"Note for {self.patient.first_name} by Dr. {self.doctor.first_name}\"",
         "detail": "rag_project.appointments.models",
         "documentation": {}
     },
@@ -1822,6 +1959,15 @@
         "description": "rag_project.appointments.views",
         "peekOfCode": "def confirm_appointment_api(request, pk):\n    if request.method != 'POST':\n        return JsonResponse({'error': 'Invalid request method'}, status=405)\n    if request.user.role != User.Role.DOCTOR:\n        return JsonResponse({'error': 'Forbidden'}, status=403)\n    appointment = get_object_or_404(Appointment, pk=pk)\n    data = json.loads(request.body)\n    appointment.doctor = request.user\n    appointment.appointment_date = data.get('date')\n    appointment.appointment_time = data.get('time')",
         "detail": "rag_project.appointments.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "rag_project.core.migrations.0001_initial",
+        "description": "rag_project.core.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='ChatSession',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "rag_project.core.migrations.0001_initial",
         "documentation": {}
     },
     {
@@ -1978,6 +2124,15 @@
         "documentation": {}
     },
     {
+        "label": "ChatSession",
+        "kind": 6,
+        "importPath": "rag_project.core.models",
+        "description": "rag_project.core.models",
+        "peekOfCode": "class ChatSession(models.Model):\n    patient = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='chat_sessions')\n    transcript = models.JSONField() # Store the list of chat messages\n    created_at = models.DateTimeField(auto_now_add=True)\n    def __str__(self):\n        return f\"Chat session for {self.patient.email} on {self.created_at.strftime('%Y-%m-%d')}\"",
+        "detail": "rag_project.core.models",
+        "documentation": {}
+    },
+    {
         "label": "urlpatterns",
         "kind": 5,
         "importPath": "rag_project.core.urls",
@@ -1987,20 +2142,20 @@
         "documentation": {}
     },
     {
-        "label": "chat",
-        "kind": 2,
-        "importPath": "rag_project.core.views",
-        "description": "rag_project.core.views",
-        "peekOfCode": "def chat(request):\n    \"\"\"\n    Handles the conversational chat API with the updated, more reliable booking flow.\n    \"\"\"\n    if request.method != 'POST':\n        return JsonResponse({'error': 'Invalid request method'}, status=405)\n    body = json.loads(request.body.decode('utf-8'))\n    user_message = body.get('question', '')\n    chat_history = request.session.get('chat_history', [])\n    current_stage = request.session.get('conversation_stage', 'GET_INITIAL_PROBLEM')",
-        "detail": "rag_project.core.views",
-        "documentation": {}
-    },
-    {
         "label": "index",
         "kind": 2,
         "importPath": "rag_project.core.views",
         "description": "rag_project.core.views",
-        "peekOfCode": "def index(request):\n    request.session['chat_history'] = []\n    request.session['conversation_stage'] = 'GET_INITIAL_PROBLEM'\n    return render(request, 'core/index.html')\n@login_required\ndef get_patient_appointments_api(request):\n    appointments = Appointment.objects.filter(patient=request.user).order_by('-created_at')\n    data = [{\n        'hospital': app.requested_hospital_name,\n        'status': app.get_status_display(),",
+        "peekOfCode": "def index(request):\n    doctors_notes = DoctorNote.objects.filter(patient=request.user).order_by('-created_at')\n    doctor_summaries = DoctorQuery.objects.filter(patient=request.user).order_by('-created_at')\n    request.session['chat_history'] = []\n    request.session['conversation_stage'] = 'GET_INITIAL_PROBLEM'\n    context = {\n        'doctors_notes': doctors_notes,\n        'doctor_summaries': doctor_summaries,\n    }\n    return render(request, 'core/index.html', context)",
+        "detail": "rag_project.core.views",
+        "documentation": {}
+    },
+    {
+        "label": "chat",
+        "kind": 2,
+        "importPath": "rag_project.core.views",
+        "description": "rag_project.core.views",
+        "peekOfCode": "def chat(request):\n    \"\"\"\n    Handles the chat, and saves the session to the database upon completion.\n    \"\"\"\n    if request.method != 'POST':\n        return JsonResponse({'error': 'Invalid request method'}, status=405)\n    body = json.loads(request.body.decode('utf-8'))\n    user_message = body.get('question', '')\n    chat_history = request.session.get('chat_history', [])\n    current_stage = request.session.get('conversation_stage', 'GET_INITIAL_PROBLEM')",
         "detail": "rag_project.core.views",
         "documentation": {}
     },
@@ -2038,6 +2193,15 @@
         "description": "rag_project.doctor_tools.management.commands.ingest_doctor_data",
         "peekOfCode": "class Command(BaseCommand):\n    help = 'Ingests patient conversations and knowledge base into Qdrant for the doctor tool.'\n    def handle(self, *args, **options):\n        self.stdout.write(self.style.SUCCESS(\"🚀 Starting data ingestion process...\"))\n        # 1. Load data sources\n        self.stdout.write(f\"📂 Loading patient conversations from '{rag_config.CONVERSATIONS_DIR}'...\")\n        conversations = utils.load_json_conversations(rag_config.CONVERSATIONS_DIR)\n        self.stdout.write(f\"📚 Loading knowledge base documents from '{rag_config.KNOWLEDGE_BASE_DIR}'...\")\n        knowledge_docs = utils.load_knowledge_base_documents(rag_config.KNOWLEDGE_BASE_DIR)\n        all_docs = conversations + knowledge_docs",
         "detail": "rag_project.doctor_tools.management.commands.ingest_doctor_data",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "rag_project.doctor_tools.migrations.0001_initial",
+        "description": "rag_project.doctor_tools.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='DoctorQuery',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "rag_project.doctor_tools.migrations.0001_initial",
         "documentation": {}
     },
     {
@@ -2176,11 +2340,20 @@
         "documentation": {}
     },
     {
+        "label": "DoctorQuery",
+        "kind": 6,
+        "importPath": "rag_project.doctor_tools.models",
+        "description": "rag_project.doctor_tools.models",
+        "peekOfCode": "class DoctorQuery(models.Model):\n    doctor = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='doctor_queries')\n    patient = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='queries_about_patient')\n    query_text = models.TextField()\n    raw_response = models.TextField() # The full, detailed response for the doctor\n    patient_summary = models.TextField() # The simplified summary for the patient\n    created_at = models.DateTimeField(auto_now_add=True)\n    def __str__(self):\n        return f\"Query by Dr. {self.doctor.first_name} about {self.patient.first_name}\"",
+        "detail": "rag_project.doctor_tools.models",
+        "documentation": {}
+    },
+    {
         "label": "app_name",
         "kind": 5,
         "importPath": "rag_project.doctor_tools.urls",
         "description": "rag_project.doctor_tools.urls",
-        "peekOfCode": "app_name = 'doctor_tools'\nurlpatterns = [\n    path('dashboard/', views.dashboard_view, name='dashboard'),\n    path('api/ask/', views.ask_question_api, name='ask_api'),\n]",
+        "peekOfCode": "app_name = 'doctor_tools'\nurlpatterns = [\n    path('dashboard/', views.dashboard_view, name='dashboard'),\n    path('api/ask/', views.ask_question_api, name='ask_api'),\n    path('patient/<int:patient_id>/', views.patient_detail_view, name='patient_detail'),\n]",
         "detail": "rag_project.doctor_tools.urls",
         "documentation": {}
     },
@@ -2189,8 +2362,35 @@
         "kind": 5,
         "importPath": "rag_project.doctor_tools.urls",
         "description": "rag_project.doctor_tools.urls",
-        "peekOfCode": "urlpatterns = [\n    path('dashboard/', views.dashboard_view, name='dashboard'),\n    path('api/ask/', views.ask_question_api, name='ask_api'),\n]",
+        "peekOfCode": "urlpatterns = [\n    path('dashboard/', views.dashboard_view, name='dashboard'),\n    path('api/ask/', views.ask_question_api, name='ask_api'),\n    path('patient/<int:patient_id>/', views.patient_detail_view, name='patient_detail'),\n]",
         "detail": "rag_project.doctor_tools.urls",
+        "documentation": {}
+    },
+    {
+        "label": "is_doctor",
+        "kind": 2,
+        "importPath": "rag_project.doctor_tools.views",
+        "description": "rag_project.doctor_tools.views",
+        "peekOfCode": "def is_doctor(user):\n    return user.is_authenticated and user.role == 'DOCTOR'\n@login_required\ndef dashboard_view(request):\n    if not is_doctor(request.user):\n        return redirect('index')\n    all_patients = User.objects.filter(role=User.Role.PATIENT)\n    pending_appointments = Appointment.objects.filter(status=Appointment.Status.PENDING).order_by('created_at')\n    confirmed_appointments = Appointment.objects.filter(doctor=request.user, status=Appointment.Status.CONFIRMED).order_by('-appointment_date', '-appointment_time')\n    context = {",
+        "detail": "rag_project.doctor_tools.views",
+        "documentation": {}
+    },
+    {
+        "label": "dashboard_view",
+        "kind": 2,
+        "importPath": "rag_project.doctor_tools.views",
+        "description": "rag_project.doctor_tools.views",
+        "peekOfCode": "def dashboard_view(request):\n    if not is_doctor(request.user):\n        return redirect('index')\n    all_patients = User.objects.filter(role=User.Role.PATIENT)\n    pending_appointments = Appointment.objects.filter(status=Appointment.Status.PENDING).order_by('created_at')\n    confirmed_appointments = Appointment.objects.filter(doctor=request.user, status=Appointment.Status.CONFIRMED).order_by('-appointment_date', '-appointment_time')\n    context = {\n        'all_patients': all_patients,\n        'pending_appointments': pending_appointments,\n        'confirmed_appointments': confirmed_appointments,",
+        "detail": "rag_project.doctor_tools.views",
+        "documentation": {}
+    },
+    {
+        "label": "patient_detail_view",
+        "kind": 2,
+        "importPath": "rag_project.doctor_tools.views",
+        "description": "rag_project.doctor_tools.views",
+        "peekOfCode": "def patient_detail_view(request, patient_id):\n    if not is_doctor(request.user):\n        return redirect('index')\n    patient = get_object_or_404(User, id=patient_id, role=User.Role.PATIENT)\n    if request.method == 'POST':\n        note_text = request.POST.get('note')\n        if note_text:\n            DoctorNote.objects.create(\n                patient=patient,\n                doctor=request.user,",
+        "detail": "rag_project.doctor_tools.views",
         "documentation": {}
     },
     {
@@ -2203,29 +2403,11 @@
         "documentation": {}
     },
     {
-        "label": "is_doctor",
-        "kind": 2,
-        "importPath": "rag_project.doctor_tools.views",
-        "description": "rag_project.doctor_tools.views",
-        "peekOfCode": "def is_doctor(user):\n    return user.is_authenticated and user.role == 'DOCTOR'\n@login_required\ndef dashboard_view(request):\n    if not is_doctor(request.user):\n        return redirect('index')\n    pending_appointments = Appointment.objects.filter(status=Appointment.Status.PENDING).order_by('created_at')\n    confirmed_appointments = Appointment.objects.filter(doctor=request.user, status=Appointment.Status.CONFIRMED).order_by('-appointment_date', '-appointment_time')\n    context = {\n        'pending_appointments': pending_appointments,",
-        "detail": "rag_project.doctor_tools.views",
-        "documentation": {}
-    },
-    {
-        "label": "dashboard_view",
-        "kind": 2,
-        "importPath": "rag_project.doctor_tools.views",
-        "description": "rag_project.doctor_tools.views",
-        "peekOfCode": "def dashboard_view(request):\n    if not is_doctor(request.user):\n        return redirect('index')\n    pending_appointments = Appointment.objects.filter(status=Appointment.Status.PENDING).order_by('created_at')\n    confirmed_appointments = Appointment.objects.filter(doctor=request.user, status=Appointment.Status.CONFIRMED).order_by('-appointment_date', '-appointment_time')\n    context = {\n        'pending_appointments': pending_appointments,\n        'confirmed_appointments': confirmed_appointments,\n    }\n    return render(request, 'doctor_tools/dashboard.html', context)",
-        "detail": "rag_project.doctor_tools.views",
-        "documentation": {}
-    },
-    {
         "label": "ask_question_api",
         "kind": 2,
         "importPath": "rag_project.doctor_tools.views",
         "description": "rag_project.doctor_tools.views",
-        "peekOfCode": "def ask_question_api(request):\n    if not is_doctor(request.user):\n        return JsonResponse({'error': 'Forbidden'}, status=403)\n    if request.method != 'POST':\n        return JsonResponse({'error': 'Invalid request method'}, status=405)\n    try:\n        chain = get_or_initialize_chain()\n        if not chain:\n            return JsonResponse({'error': 'RAG chain is not available'}, status=500)\n        body = json.loads(request.body)",
+        "peekOfCode": "def ask_question_api(request):\n    if not is_doctor(request.user):\n        return JsonResponse({'error': 'Forbidden'}, status=403)\n    if request.method != 'POST':\n        return JsonResponse({'error': 'Invalid request method'}, status=405)\n    try:\n        body = json.loads(request.body)\n        question = body.get('question', '')\n        patient_id = body.get('patient_id')\n        if not question or not patient_id:",
         "detail": "rag_project.doctor_tools.views",
         "documentation": {}
     },

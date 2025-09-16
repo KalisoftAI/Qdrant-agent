@@ -1,0 +1,75 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Patient History - {{ patient.first_name }} {{ patient.last_name }}{% endblock %}
+
+{% block content %}
+<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+    
+    <div>
+        <a href="{% url 'doctor_tools:dashboard' %}" class="text-sm text-teal-600 dark:text-teal-500 hover:underline mb-4 inline-block">&larr; Back to Dashboard</a>
+        <h1 class="text-3xl font-extrabold text-gray-900 dark:text-white">
+            Patient History: {{ patient.first_name }} {{ patient.last_name }}
+        </h1>
+        <p class="text-sm font-mono text-gray-500 dark:text-gray-400 mt-1">Patient ID: {{ patient.patientprofile.patient_id }}</p>
+        <p class="text-gray-500 dark:text-gray-400">{{ patient.email }}</p>
+    </div>
+
+    <section class="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-6 border border-gray-200 dark:border-gray-700">
+        <h2 class="text-xl font-bold text-gray-900 dark:text-white mb-4">Add a New Note or Remedy</h2>
+        <form method="POST">
+            {% csrf_token %}
+            <textarea name="note" rows="4" class="w-full bg-gray-100 dark:bg-gray-700 border-gray-300 dark:border-gray-600 text-gray-900 dark:text-white text-sm rounded-lg" placeholder="Write your suggestion for the patient here..." required></textarea>
+            <button type="submit" class="mt-4 inline-flex items-center justify-center p-3 text-sm font-medium text-white bg-teal-600 rounded-lg hover:bg-teal-700">
+                Save Note for Patient
+            </button>
+        </form>
+    </section>
+
+    <section>
+        <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">Patient's Notes History</h2>
+        <div class="space-y-4">
+            {% for note in doctors_notes %}
+            <div class="p-4 rounded-lg border bg-sky-50 dark:bg-sky-900/30">
+                <p class="text-sm text-gray-500 dark:text-gray-400">
+                    <strong>Note from Dr. {{ note.doctor.first_name }}</strong> on {{ note.created_at|date:"F d, Y" }}
+                </p>
+                <p class="mt-2">{{ note.note|linebreaksbr }}</p>
+            </div>
+            {% empty %}
+            <p class="text-gray-500 dark:text-gray-400">No notes have been added for this patient yet.</p>
+            {% endfor %}
+        </div>
+    </section>
+
+    <section>
+        <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">Screening Conversations</h2>
+        <div class="space-y-6">
+            {% for session in chat_sessions %}
+            <div class="bg-white dark:bg-gray-800 rounded-2xl shadow p-6 border">
+                <h3 class="font-semibold border-b pb-2 mb-4 dark:border-gray-600">Conversation from {{ session.created_at|date:"F d, Y, g:i A" }}</h3>
+                <div class="space-y-4 max-h-96 overflow-y-auto pr-4">
+                    {% for message in session.transcript %}
+                        {% if message.speaker == 'Patient' %}
+                        <div class="flex justify-end">
+                            <div class="bg-teal-500 text-white p-3 rounded-xl rounded-br-none max-w-lg">
+                                <p>{{ message.line }}</p>
+                            </div>
+                        </div>
+                        {% else %}
+                        <div class="flex justify-start">
+                            <div class="bg-gray-100 dark:bg-gray-700 p-3 rounded-xl rounded-bl-none max-w-lg">
+                                <p>{{ message.line|linebreaksbr }}</p>
+                            </div>
+                        </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+            {% empty %}
+            <p class="text-gray-500 dark:text-gray-400">This patient has not completed any screening conversations yet.</p>
+            {% endfor %}
+        </div>
+    </section>
+</div>
+{% endblock %}
