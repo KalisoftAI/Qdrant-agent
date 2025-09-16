@@ -13,6 +13,8 @@ Consultations are often too short to capture a complete picture of a patient's c
 
 This project aims to bridge that gap with an intelligent AI assistant that provides proactive, personalized support for patients and delivers actionable insights to doctors.
 
+### Architecture Diagram
+
 ![Architecture](./Diabetes_bot.svg)
 
 
