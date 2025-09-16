@@ -1,0 +1,3087 @@
+[
+    {
+        "label": "get_rag_chain",
+        "importPath": "chain",
+        "description": "chain",
+        "isExtraImport": true,
+        "detail": "chain",
+        "documentation": {}
+    },
+    {
+        "label": "warnings",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "warnings",
+        "description": "warnings",
+        "detail": "warnings",
+        "documentation": {}
+    },
+    {
+        "label": "PromptTemplate",
+        "importPath": "langchain_core.prompts",
+        "description": "langchain_core.prompts",
+        "isExtraImport": true,
+        "detail": "langchain_core.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "ChatPromptTemplate",
+        "importPath": "langchain_core.prompts",
+        "description": "langchain_core.prompts",
+        "isExtraImport": true,
+        "detail": "langchain_core.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "PromptTemplate",
+        "importPath": "langchain_core.prompts",
+        "description": "langchain_core.prompts",
+        "isExtraImport": true,
+        "detail": "langchain_core.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "ChatPromptTemplate",
+        "importPath": "langchain_core.prompts",
+        "description": "langchain_core.prompts",
+        "isExtraImport": true,
+        "detail": "langchain_core.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "RunnablePassthrough",
+        "importPath": "langchain_core.runnables",
+        "description": "langchain_core.runnables",
+        "isExtraImport": true,
+        "detail": "langchain_core.runnables",
+        "documentation": {}
+    },
+    {
+        "label": "RunnablePassthrough",
+        "importPath": "langchain_core.runnables",
+        "description": "langchain_core.runnables",
+        "isExtraImport": true,
+        "detail": "langchain_core.runnables",
+        "documentation": {}
+    },
+    {
+        "label": "RunnablePassthrough",
+        "importPath": "langchain_core.runnables",
+        "description": "langchain_core.runnables",
+        "isExtraImport": true,
+        "detail": "langchain_core.runnables",
+        "documentation": {}
+    },
+    {
+        "label": "StrOutputParser",
+        "importPath": "langchain_core.output_parsers",
+        "description": "langchain_core.output_parsers",
+        "isExtraImport": true,
+        "detail": "langchain_core.output_parsers",
+        "documentation": {}
+    },
+    {
+        "label": "StrOutputParser",
+        "importPath": "langchain_core.output_parsers",
+        "description": "langchain_core.output_parsers",
+        "isExtraImport": true,
+        "detail": "langchain_core.output_parsers",
+        "documentation": {}
+    },
+    {
+        "label": "StrOutputParser",
+        "importPath": "langchain_core.output_parsers",
+        "description": "langchain_core.output_parsers",
+        "isExtraImport": true,
+        "detail": "langchain_core.output_parsers",
+        "documentation": {}
+    },
+    {
+        "label": "StrOutputParser",
+        "importPath": "langchain_core.output_parsers",
+        "description": "langchain_core.output_parsers",
+        "isExtraImport": true,
+        "detail": "langchain_core.output_parsers",
+        "documentation": {}
+    },
+    {
+        "label": "ChatGoogleGenerativeAI",
+        "importPath": "langchain_google_genai",
+        "description": "langchain_google_genai",
+        "isExtraImport": true,
+        "detail": "langchain_google_genai",
+        "documentation": {}
+    },
+    {
+        "label": "GoogleGenerativeAIEmbeddings",
+        "importPath": "langchain_google_genai",
+        "description": "langchain_google_genai",
+        "isExtraImport": true,
+        "detail": "langchain_google_genai",
+        "documentation": {}
+    },
+    {
+        "label": "GoogleGenerativeAIEmbeddings",
+        "importPath": "langchain_google_genai",
+        "description": "langchain_google_genai",
+        "isExtraImport": true,
+        "detail": "langchain_google_genai",
+        "documentation": {}
+    },
+    {
+        "label": "ChatGoogleGenerativeAI",
+        "importPath": "langchain_google_genai",
+        "description": "langchain_google_genai",
+        "isExtraImport": true,
+        "detail": "langchain_google_genai",
+        "documentation": {}
+    },
+    {
+        "label": "GoogleGenerativeAIEmbeddings",
+        "importPath": "langchain_google_genai",
+        "description": "langchain_google_genai",
+        "isExtraImport": true,
+        "detail": "langchain_google_genai",
+        "documentation": {}
+    },
+    {
+        "label": "ChatGoogleGenerativeAI",
+        "importPath": "langchain_google_genai",
+        "description": "langchain_google_genai",
+        "isExtraImport": true,
+        "detail": "langchain_google_genai",
+        "documentation": {}
+    },
+    {
+        "label": "GoogleGenerativeAIEmbeddings",
+        "importPath": "langchain_google_genai",
+        "description": "langchain_google_genai",
+        "isExtraImport": true,
+        "detail": "langchain_google_genai",
+        "documentation": {}
+    },
+    {
+        "label": "ChatGoogleGenerativeAI",
+        "importPath": "langchain_google_genai",
+        "description": "langchain_google_genai",
+        "isExtraImport": true,
+        "detail": "langchain_google_genai",
+        "documentation": {}
+    },
+    {
+        "label": "GoogleGenerativeAIEmbeddings",
+        "importPath": "langchain_google_genai",
+        "description": "langchain_google_genai",
+        "isExtraImport": true,
+        "detail": "langchain_google_genai",
+        "documentation": {}
+    },
+    {
+        "label": "GoogleGenerativeAIEmbeddings",
+        "importPath": "langchain_google_genai",
+        "description": "langchain_google_genai",
+        "isExtraImport": true,
+        "detail": "langchain_google_genai",
+        "documentation": {}
+    },
+    {
+        "label": "ChatGoogleGenerativeAI",
+        "importPath": "langchain_google_genai",
+        "description": "langchain_google_genai",
+        "isExtraImport": true,
+        "detail": "langchain_google_genai",
+        "documentation": {}
+    },
+    {
+        "label": "ChatGoogleGenerativeAI",
+        "importPath": "langchain_google_genai",
+        "description": "langchain_google_genai",
+        "isExtraImport": true,
+        "detail": "langchain_google_genai",
+        "documentation": {}
+    },
+    {
+        "label": "GoogleGenerativeAIEmbeddings",
+        "importPath": "langchain_google_genai",
+        "description": "langchain_google_genai",
+        "isExtraImport": true,
+        "detail": "langchain_google_genai",
+        "documentation": {}
+    },
+    {
+        "label": "Qdrant",
+        "importPath": "langchain_community.vectorstores",
+        "description": "langchain_community.vectorstores",
+        "isExtraImport": true,
+        "detail": "langchain_community.vectorstores",
+        "documentation": {}
+    },
+    {
+        "label": "Qdrant",
+        "importPath": "langchain_community.vectorstores",
+        "description": "langchain_community.vectorstores",
+        "isExtraImport": true,
+        "detail": "langchain_community.vectorstores",
+        "documentation": {}
+    },
+    {
+        "label": "Qdrant",
+        "importPath": "langchain_community.vectorstores",
+        "description": "langchain_community.vectorstores",
+        "isExtraImport": true,
+        "detail": "langchain_community.vectorstores",
+        "documentation": {}
+    },
+    {
+        "label": "Qdrant",
+        "importPath": "langchain_community.vectorstores",
+        "description": "langchain_community.vectorstores",
+        "isExtraImport": true,
+        "detail": "langchain_community.vectorstores",
+        "documentation": {}
+    },
+    {
+        "label": "Qdrant",
+        "importPath": "langchain_community.vectorstores",
+        "description": "langchain_community.vectorstores",
+        "isExtraImport": true,
+        "detail": "langchain_community.vectorstores",
+        "documentation": {}
+    },
+    {
+        "label": "Qdrant",
+        "importPath": "langchain_community.vectorstores",
+        "description": "langchain_community.vectorstores",
+        "isExtraImport": true,
+        "detail": "langchain_community.vectorstores",
+        "documentation": {}
+    },
+    {
+        "label": "Qdrant",
+        "importPath": "langchain_community.vectorstores",
+        "description": "langchain_community.vectorstores",
+        "isExtraImport": true,
+        "detail": "langchain_community.vectorstores",
+        "documentation": {}
+    },
+    {
+        "label": "qdrant_client",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "qdrant_client",
+        "description": "qdrant_client",
+        "detail": "qdrant_client",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "config",
+        "description": "config",
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "RecursiveCharacterTextSplitter",
+        "importPath": "langchain.text_splitter",
+        "description": "langchain.text_splitter",
+        "isExtraImport": true,
+        "detail": "langchain.text_splitter",
+        "documentation": {}
+    },
+    {
+        "label": "RecursiveCharacterTextSplitter",
+        "importPath": "langchain.text_splitter",
+        "description": "langchain.text_splitter",
+        "isExtraImport": true,
+        "detail": "langchain.text_splitter",
+        "documentation": {}
+    },
+    {
+        "label": "RecursiveCharacterTextSplitter",
+        "importPath": "langchain.text_splitter",
+        "description": "langchain.text_splitter",
+        "isExtraImport": true,
+        "detail": "langchain.text_splitter",
+        "documentation": {}
+    },
+    {
+        "label": "RecursiveCharacterTextSplitter",
+        "importPath": "langchain.text_splitter",
+        "description": "langchain.text_splitter",
+        "isExtraImport": true,
+        "detail": "langchain.text_splitter",
+        "documentation": {}
+    },
+    {
+        "label": "config,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "config.",
+        "description": "config.",
+        "detail": "config.",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "PyPDFLoader",
+        "importPath": "langchain_community.document_loaders",
+        "description": "langchain_community.document_loaders",
+        "isExtraImport": true,
+        "detail": "langchain_community.document_loaders",
+        "documentation": {}
+    },
+    {
+        "label": "DirectoryLoader",
+        "importPath": "langchain_community.document_loaders",
+        "description": "langchain_community.document_loaders",
+        "isExtraImport": true,
+        "detail": "langchain_community.document_loaders",
+        "documentation": {}
+    },
+    {
+        "label": "PyPDFLoader",
+        "importPath": "langchain_community.document_loaders",
+        "description": "langchain_community.document_loaders",
+        "isExtraImport": true,
+        "detail": "langchain_community.document_loaders",
+        "documentation": {}
+    },
+    {
+        "label": "PyPDFLoader",
+        "importPath": "langchain_community.document_loaders",
+        "description": "langchain_community.document_loaders",
+        "isExtraImport": true,
+        "detail": "langchain_community.document_loaders",
+        "documentation": {}
+    },
+    {
+        "label": "DirectoryLoader",
+        "importPath": "langchain_community.document_loaders",
+        "description": "langchain_community.document_loaders",
+        "isExtraImport": true,
+        "detail": "langchain_community.document_loaders",
+        "documentation": {}
+    },
+    {
+        "label": "PyPDFLoader",
+        "importPath": "langchain_community.document_loaders",
+        "description": "langchain_community.document_loaders",
+        "isExtraImport": true,
+        "detail": "langchain_community.document_loaders",
+        "documentation": {}
+    },
+    {
+        "label": "django.contrib.auth.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "AbstractUser",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "django.utils.timezone",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "transaction",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "gettext_lazy",
+        "importPath": "django.utils.translation",
+        "description": "django.utils.translation",
+        "isExtraImport": true,
+        "detail": "django.utils.translation",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "CreateView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "GoogleSearch",
+        "importPath": "serpapi",
+        "description": "serpapi",
+        "isExtraImport": true,
+        "detail": "serpapi",
+        "documentation": {}
+    },
+    {
+        "label": "GoogleSearch",
+        "importPath": "serpapi",
+        "description": "serpapi",
+        "isExtraImport": true,
+        "detail": "serpapi",
+        "documentation": {}
+    },
+    {
+        "label": "JsonResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "JsonResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "JsonResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "accounts.models",
+        "description": "accounts.models",
+        "isExtraImport": true,
+        "detail": "accounts.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "accounts.models",
+        "description": "accounts.models",
+        "isExtraImport": true,
+        "detail": "accounts.models",
+        "documentation": {}
+    },
+    {
+        "label": "base64",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "base64",
+        "description": "base64",
+        "detail": "base64",
+        "documentation": {}
+    },
+    {
+        "label": "Appointment",
+        "importPath": "appointments.models",
+        "description": "appointments.models",
+        "isExtraImport": true,
+        "detail": "appointments.models",
+        "documentation": {}
+    },
+    {
+        "label": "Appointment",
+        "importPath": "appointments.models",
+        "description": "appointments.models",
+        "isExtraImport": true,
+        "detail": "appointments.models",
+        "documentation": {}
+    },
+    {
+        "label": "BaseCommand",
+        "importPath": "django.core.management.base",
+        "description": "django.core.management.base",
+        "isExtraImport": true,
+        "detail": "django.core.management.base",
+        "documentation": {}
+    },
+    {
+        "label": "rag_config",
+        "importPath": "doctor_tools.rag_logic",
+        "description": "doctor_tools.rag_logic",
+        "isExtraImport": true,
+        "detail": "doctor_tools.rag_logic",
+        "documentation": {}
+    },
+    {
+        "label": "utils",
+        "importPath": "doctor_tools.rag_logic",
+        "description": "doctor_tools.rag_logic",
+        "isExtraImport": true,
+        "detail": "doctor_tools.rag_logic",
+        "documentation": {}
+    },
+    {
+        "label": "nest_asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "nest_asyncio",
+        "description": "nest_asyncio",
+        "detail": "nest_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "os.path",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.path",
+        "description": "os.path",
+        "detail": "os.path",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "ArgumentParser",
+        "importPath": "argparse",
+        "description": "argparse",
+        "isExtraImport": true,
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Container",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Iterable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TextIO",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "cast",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Container",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Iterable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "pdfminer",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pdfminer",
+        "description": "pdfminer",
+        "detail": "pdfminer",
+        "documentation": {}
+    },
+    {
+        "label": "PDFDocument",
+        "importPath": "pdfminer.pdfdocument",
+        "description": "pdfminer.pdfdocument",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdfdocument",
+        "documentation": {}
+    },
+    {
+        "label": "PDFNoOutlines",
+        "importPath": "pdfminer.pdfdocument",
+        "description": "pdfminer.pdfdocument",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdfdocument",
+        "documentation": {}
+    },
+    {
+        "label": "PDFXRefFallback",
+        "importPath": "pdfminer.pdfdocument",
+        "description": "pdfminer.pdfdocument",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdfdocument",
+        "documentation": {}
+    },
+    {
+        "label": "PDFIOError",
+        "importPath": "pdfminer.pdfexceptions",
+        "description": "pdfminer.pdfexceptions",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdfexceptions",
+        "documentation": {}
+    },
+    {
+        "label": "PDFObjectNotFound",
+        "importPath": "pdfminer.pdfexceptions",
+        "description": "pdfminer.pdfexceptions",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdfexceptions",
+        "documentation": {}
+    },
+    {
+        "label": "PDFTypeError",
+        "importPath": "pdfminer.pdfexceptions",
+        "description": "pdfminer.pdfexceptions",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdfexceptions",
+        "documentation": {}
+    },
+    {
+        "label": "PDFValueError",
+        "importPath": "pdfminer.pdfexceptions",
+        "description": "pdfminer.pdfexceptions",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdfexceptions",
+        "documentation": {}
+    },
+    {
+        "label": "PDFValueError",
+        "importPath": "pdfminer.pdfexceptions",
+        "description": "pdfminer.pdfexceptions",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdfexceptions",
+        "documentation": {}
+    },
+    {
+        "label": "PDFPage",
+        "importPath": "pdfminer.pdfpage",
+        "description": "pdfminer.pdfpage",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdfpage",
+        "documentation": {}
+    },
+    {
+        "label": "PDFParser",
+        "importPath": "pdfminer.pdfparser",
+        "description": "pdfminer.pdfparser",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdfparser",
+        "documentation": {}
+    },
+    {
+        "label": "PDFObjRef",
+        "importPath": "pdfminer.pdftypes",
+        "description": "pdfminer.pdftypes",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdftypes",
+        "documentation": {}
+    },
+    {
+        "label": "PDFStream",
+        "importPath": "pdfminer.pdftypes",
+        "description": "pdfminer.pdftypes",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdftypes",
+        "documentation": {}
+    },
+    {
+        "label": "resolve1",
+        "importPath": "pdfminer.pdftypes",
+        "description": "pdfminer.pdftypes",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdftypes",
+        "documentation": {}
+    },
+    {
+        "label": "stream_value",
+        "importPath": "pdfminer.pdftypes",
+        "description": "pdfminer.pdftypes",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdftypes",
+        "documentation": {}
+    },
+    {
+        "label": "LIT",
+        "importPath": "pdfminer.psparser",
+        "description": "pdfminer.psparser",
+        "isExtraImport": true,
+        "detail": "pdfminer.psparser",
+        "documentation": {}
+    },
+    {
+        "label": "PSKeyword",
+        "importPath": "pdfminer.psparser",
+        "description": "pdfminer.psparser",
+        "isExtraImport": true,
+        "detail": "pdfminer.psparser",
+        "documentation": {}
+    },
+    {
+        "label": "PSLiteral",
+        "importPath": "pdfminer.psparser",
+        "description": "pdfminer.psparser",
+        "isExtraImport": true,
+        "detail": "pdfminer.psparser",
+        "documentation": {}
+    },
+    {
+        "label": "isnumber",
+        "importPath": "pdfminer.utils",
+        "description": "pdfminer.utils",
+        "isExtraImport": true,
+        "detail": "pdfminer.utils",
+        "documentation": {}
+    },
+    {
+        "label": "AnyIO",
+        "importPath": "pdfminer.utils",
+        "description": "pdfminer.utils",
+        "isExtraImport": true,
+        "detail": "pdfminer.utils",
+        "documentation": {}
+    },
+    {
+        "label": "pdfminer.high_level",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pdfminer.high_level",
+        "description": "pdfminer.high_level",
+        "detail": "pdfminer.high_level",
+        "documentation": {}
+    },
+    {
+        "label": "LAParams",
+        "importPath": "pdfminer.layout",
+        "description": "pdfminer.layout",
+        "isExtraImport": true,
+        "detail": "pdfminer.layout",
+        "documentation": {}
+    },
+    {
+        "label": "glob",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "glob",
+        "description": "glob",
+        "detail": "glob",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "sysconfig",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sysconfig",
+        "description": "sysconfig",
+        "detail": "sysconfig",
+        "documentation": {}
+    },
+    {
+        "label": "tempfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tempfile",
+        "description": "tempfile",
+        "detail": "tempfile",
+        "documentation": {}
+    },
+    {
+        "label": "winreg",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "winreg",
+        "description": "winreg",
+        "detail": "winreg",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "get_rag_chain",
+        "importPath": "src.chain",
+        "description": "src.chain",
+        "isExtraImport": true,
+        "detail": "src.chain",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "src",
+        "description": "src",
+        "isExtraImport": true,
+        "detail": "src",
+        "documentation": {}
+    },
+    {
+        "label": "utils",
+        "importPath": "src",
+        "description": "src",
+        "isExtraImport": true,
+        "detail": "src",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "qude_p1.src.app",
+        "description": "qude_p1.src.app",
+        "peekOfCode": "def main():\n    \"\"\"\n    Main function to run the command-line interface for the RAG application.\n    \"\"\"\n    print(\"🤖 Initializing Diabetes Clinical Assistant...\")\n    try:\n        rag_chain = get_rag_chain()\n        print(\"✅ Assistant is ready. Ask clinical questions about your patients.\")\n        print(\"   (Type 'exit' or 'quit' to end the session)\")\n        while True:",
+        "detail": "qude_p1.src.app",
+        "documentation": {}
+    },
+    {
+        "label": "get_rag_chain",
+        "kind": 2,
+        "importPath": "qude_p1.src.chain",
+        "description": "qude_p1.src.chain",
+        "peekOfCode": "def get_rag_chain():\n    \"\"\"\n    Initializes and returns a RAG chain with a specialized prompt for clinical insights.\n    \"\"\"\n    # Initialize the Qdrant client and vector store\n    client = qdrant_client.QdrantClient(host=config.QDRANT_HOST, port=config.QDRANT_PORT)\n    embeddings = GoogleGenerativeAIEmbeddings(\n        model=config.EMBEDDING_MODEL,\n        google_api_key=config.GOOGLE_API_KEY\n    )",
+        "detail": "qude_p1.src.chain",
+        "documentation": {}
+    },
+    {
+        "label": "GOOGLE_API_KEY",
+        "kind": 5,
+        "importPath": "qude_p1.src.config",
+        "description": "qude_p1.src.config",
+        "peekOfCode": "GOOGLE_API_KEY = os.getenv(\"GOOGLE_API_KEY\")\n# --- Project Paths ---\n# This assumes the script is run from the project root (DiabetesRAG/)\nPROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))\nDATA_DIR = os.path.join(PROJECT_ROOT, \"data\")\nCONVERSATIONS_DIR = os.path.join(DATA_DIR, \"conversations\")\nKNOWLEDGE_BASE_DIR = os.path.join(DATA_DIR, \"knowledge_base\")\n# --- Qdrant Configuration ---\nQDRANT_HOST = \"localhost\"\nQDRANT_PORT = 6333",
+        "detail": "qude_p1.src.config",
+        "documentation": {}
+    },
+    {
+        "label": "PROJECT_ROOT",
+        "kind": 5,
+        "importPath": "qude_p1.src.config",
+        "description": "qude_p1.src.config",
+        "peekOfCode": "PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))\nDATA_DIR = os.path.join(PROJECT_ROOT, \"data\")\nCONVERSATIONS_DIR = os.path.join(DATA_DIR, \"conversations\")\nKNOWLEDGE_BASE_DIR = os.path.join(DATA_DIR, \"knowledge_base\")\n# --- Qdrant Configuration ---\nQDRANT_HOST = \"localhost\"\nQDRANT_PORT = 6333\nCOLLECTION_NAME = \"diabetes_management\"\n# --- LangChain Model Configuration ---\nEMBEDDING_MODEL = \"models/embedding-001\"",
+        "detail": "qude_p1.src.config",
+        "documentation": {}
+    },
+    {
+        "label": "DATA_DIR",
+        "kind": 5,
+        "importPath": "qude_p1.src.config",
+        "description": "qude_p1.src.config",
+        "peekOfCode": "DATA_DIR = os.path.join(PROJECT_ROOT, \"data\")\nCONVERSATIONS_DIR = os.path.join(DATA_DIR, \"conversations\")\nKNOWLEDGE_BASE_DIR = os.path.join(DATA_DIR, \"knowledge_base\")\n# --- Qdrant Configuration ---\nQDRANT_HOST = \"localhost\"\nQDRANT_PORT = 6333\nCOLLECTION_NAME = \"diabetes_management\"\n# --- LangChain Model Configuration ---\nEMBEDDING_MODEL = \"models/embedding-001\"\nLLM_MODEL = \"gemini-1.5-pro-latest\"",
+        "detail": "qude_p1.src.config",
+        "documentation": {}
+    },
+    {
+        "label": "CONVERSATIONS_DIR",
+        "kind": 5,
+        "importPath": "qude_p1.src.config",
+        "description": "qude_p1.src.config",
+        "peekOfCode": "CONVERSATIONS_DIR = os.path.join(DATA_DIR, \"conversations\")\nKNOWLEDGE_BASE_DIR = os.path.join(DATA_DIR, \"knowledge_base\")\n# --- Qdrant Configuration ---\nQDRANT_HOST = \"localhost\"\nQDRANT_PORT = 6333\nCOLLECTION_NAME = \"diabetes_management\"\n# --- LangChain Model Configuration ---\nEMBEDDING_MODEL = \"models/embedding-001\"\nLLM_MODEL = \"gemini-1.5-pro-latest\"\n# --- Text Splitting Configuration ---",
+        "detail": "qude_p1.src.config",
+        "documentation": {}
+    },
+    {
+        "label": "KNOWLEDGE_BASE_DIR",
+        "kind": 5,
+        "importPath": "qude_p1.src.config",
+        "description": "qude_p1.src.config",
+        "peekOfCode": "KNOWLEDGE_BASE_DIR = os.path.join(DATA_DIR, \"knowledge_base\")\n# --- Qdrant Configuration ---\nQDRANT_HOST = \"localhost\"\nQDRANT_PORT = 6333\nCOLLECTION_NAME = \"diabetes_management\"\n# --- LangChain Model Configuration ---\nEMBEDDING_MODEL = \"models/embedding-001\"\nLLM_MODEL = \"gemini-1.5-pro-latest\"\n# --- Text Splitting Configuration ---\nCHUNK_SIZE = 1500",
+        "detail": "qude_p1.src.config",
+        "documentation": {}
+    },
+    {
+        "label": "QDRANT_HOST",
+        "kind": 5,
+        "importPath": "qude_p1.src.config",
+        "description": "qude_p1.src.config",
+        "peekOfCode": "QDRANT_HOST = \"localhost\"\nQDRANT_PORT = 6333\nCOLLECTION_NAME = \"diabetes_management\"\n# --- LangChain Model Configuration ---\nEMBEDDING_MODEL = \"models/embedding-001\"\nLLM_MODEL = \"gemini-1.5-pro-latest\"\n# --- Text Splitting Configuration ---\nCHUNK_SIZE = 1500\nCHUNK_OVERLAP = 200",
+        "detail": "qude_p1.src.config",
+        "documentation": {}
+    },
+    {
+        "label": "QDRANT_PORT",
+        "kind": 5,
+        "importPath": "qude_p1.src.config",
+        "description": "qude_p1.src.config",
+        "peekOfCode": "QDRANT_PORT = 6333\nCOLLECTION_NAME = \"diabetes_management\"\n# --- LangChain Model Configuration ---\nEMBEDDING_MODEL = \"models/embedding-001\"\nLLM_MODEL = \"gemini-1.5-pro-latest\"\n# --- Text Splitting Configuration ---\nCHUNK_SIZE = 1500\nCHUNK_OVERLAP = 200",
+        "detail": "qude_p1.src.config",
+        "documentation": {}
+    },
+    {
+        "label": "COLLECTION_NAME",
+        "kind": 5,
+        "importPath": "qude_p1.src.config",
+        "description": "qude_p1.src.config",
+        "peekOfCode": "COLLECTION_NAME = \"diabetes_management\"\n# --- LangChain Model Configuration ---\nEMBEDDING_MODEL = \"models/embedding-001\"\nLLM_MODEL = \"gemini-1.5-pro-latest\"\n# --- Text Splitting Configuration ---\nCHUNK_SIZE = 1500\nCHUNK_OVERLAP = 200",
+        "detail": "qude_p1.src.config",
+        "documentation": {}
+    },
+    {
+        "label": "EMBEDDING_MODEL",
+        "kind": 5,
+        "importPath": "qude_p1.src.config",
+        "description": "qude_p1.src.config",
+        "peekOfCode": "EMBEDDING_MODEL = \"models/embedding-001\"\nLLM_MODEL = \"gemini-1.5-pro-latest\"\n# --- Text Splitting Configuration ---\nCHUNK_SIZE = 1500\nCHUNK_OVERLAP = 200",
+        "detail": "qude_p1.src.config",
+        "documentation": {}
+    },
+    {
+        "label": "LLM_MODEL",
+        "kind": 5,
+        "importPath": "qude_p1.src.config",
+        "description": "qude_p1.src.config",
+        "peekOfCode": "LLM_MODEL = \"gemini-1.5-pro-latest\"\n# --- Text Splitting Configuration ---\nCHUNK_SIZE = 1500\nCHUNK_OVERLAP = 200",
+        "detail": "qude_p1.src.config",
+        "documentation": {}
+    },
+    {
+        "label": "CHUNK_SIZE",
+        "kind": 5,
+        "importPath": "qude_p1.src.config",
+        "description": "qude_p1.src.config",
+        "peekOfCode": "CHUNK_SIZE = 1500\nCHUNK_OVERLAP = 200",
+        "detail": "qude_p1.src.config",
+        "documentation": {}
+    },
+    {
+        "label": "CHUNK_OVERLAP",
+        "kind": 5,
+        "importPath": "qude_p1.src.config",
+        "description": "qude_p1.src.config",
+        "peekOfCode": "CHUNK_OVERLAP = 200",
+        "detail": "qude_p1.src.config",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "qude_p1.src.ingest",
+        "description": "qude_p1.src.ingest",
+        "peekOfCode": "def main():\n    \"\"\"Main function to ingest data into Qdrant.\"\"\"\n    print(\"🚀 Starting data ingestion process...\")\n    # 1. Load all data sources\n    print(f\"📂 Loading patient conversations from '{config.CONVERSATIONS_DIR}'...\")\n    conversations = utils.load_json_conversations(config.CONVERSATIONS_DIR)\n    print(f\"📚 Loading knowledge base documents from '{config.KNOWLEDGE_BASE_DIR}'...\")\n    knowledge_docs = utils.load_knowledge_base_documents(config.KNOWLEDGE_BASE_DIR)\n    all_docs = conversations + knowledge_docs\n    if not all_docs:",
+        "detail": "qude_p1.src.ingest",
+        "documentation": {}
+    },
+    {
+        "label": "load_json_conversations",
+        "kind": 2,
+        "importPath": "qude_p1.src.utils",
+        "description": "qude_p1.src.utils",
+        "peekOfCode": "def load_json_conversations(directory_path: str):\n    \"\"\"Loads and processes patient conversation JSON files from a directory.\"\"\"\n    documents = []\n    if not os.path.isdir(directory_path):\n        logging.error(f\"Directory not found: {directory_path}\")\n        return documents\n    for filename in os.listdir(directory_path):\n        if filename.lower().endswith(\".json\"):\n            file_path = os.path.join(directory_path, filename)\n            try:",
+        "detail": "qude_p1.src.utils",
+        "documentation": {}
+    },
+    {
+        "label": "load_knowledge_base_documents",
+        "kind": 2,
+        "importPath": "qude_p1.src.utils",
+        "description": "qude_p1.src.utils",
+        "peekOfCode": "def load_knowledge_base_documents(directory_path: str):\n    \"\"\"Loads PDF documents from the knowledge base directory.\"\"\"\n    if not os.path.isdir(directory_path):\n        logging.error(f\"Directory not found: {directory_path}\")\n        return []\n    # Use DirectoryLoader to handle multiple PDFs\n    loader = DirectoryLoader(\n        directory_path,\n        glob=\"**/*.pdf\",\n        loader_cls=PyPDFLoader,",
+        "detail": "qude_p1.src.utils",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "rag_project.accounts.migrations.0001_initial",
+        "description": "rag_project.accounts.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('auth', '0012_alter_user_first_name_max_length'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='User',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "rag_project.accounts.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "AccountsConfig",
+        "kind": 6,
+        "importPath": "rag_project.accounts.apps",
+        "description": "rag_project.accounts.apps",
+        "peekOfCode": "class AccountsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'accounts'",
+        "detail": "rag_project.accounts.apps",
+        "documentation": {}
+    },
+    {
+        "label": "PatientSignUpForm",
+        "kind": 6,
+        "importPath": "rag_project.accounts.forms",
+        "description": "rag_project.accounts.forms",
+        "peekOfCode": "class PatientSignUpForm(UserCreationForm):\n    # Fields from PatientProfile model\n    age = forms.IntegerField(required=True)\n    gender = forms.ChoiceField(choices=[('Male', 'Male'), ('Female', 'Female'), ('Other', 'Other')], required=True)\n    mobile_no = forms.CharField(max_length=15, required=True)\n    first_name = forms.CharField(max_length=30, required=True)\n    last_name = forms.CharField(max_length=30, required=True)\n    class Meta(UserCreationForm.Meta):\n        model = User\n        fields = ('first_name', 'last_name', 'email')",
+        "detail": "rag_project.accounts.forms",
+        "documentation": {}
+    },
+    {
+        "label": "DoctorSignUpForm",
+        "kind": 6,
+        "importPath": "rag_project.accounts.forms",
+        "description": "rag_project.accounts.forms",
+        "peekOfCode": "class DoctorSignUpForm(UserCreationForm):\n    # Fields from DoctorProfile model\n    hospital_name = forms.CharField(max_length=255, required=True)\n    qualification = forms.CharField(max_length=255, required=True)\n    mobile_no = forms.CharField(max_length=15, required=True)\n    first_name = forms.CharField(max_length=30, required=True)\n    last_name = forms.CharField(max_length=30, required=True)\n    class Meta(UserCreationForm.Meta):\n        model = User\n        fields = ('first_name', 'last_name', 'email')",
+        "detail": "rag_project.accounts.forms",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "rag_project.accounts.models",
+        "description": "rag_project.accounts.models",
+        "peekOfCode": "class User(AbstractUser):\n    \"\"\"\n    Custom User model supporting email as the unique identifier.\n    \"\"\"\n    class Role(models.TextChoices):\n        DOCTOR = \"DOCTOR\", \"Doctor\"\n        PATIENT = \"PATIENT\", \"Patient\"\n    # We don't need a username, email will be the unique identifier\n    username = None\n    email = models.EmailField(_('email address'), unique=True)",
+        "detail": "rag_project.accounts.models",
+        "documentation": {}
+    },
+    {
+        "label": "PatientProfile",
+        "kind": 6,
+        "importPath": "rag_project.accounts.models",
+        "description": "rag_project.accounts.models",
+        "peekOfCode": "class PatientProfile(models.Model):\n    user = models.OneToOneField(User, on_delete=models.CASCADE, primary_key=True)\n    patient_id = models.UUIDField(default=uuid.uuid4, editable=False, unique=True)\n    age = models.PositiveIntegerField()\n    gender = models.CharField(max_length=10, choices=[('Male', 'Male'), ('Female', 'Female'), ('Other', 'Other')])\n    mobile_no = models.CharField(max_length=15)\n    def __str__(self):\n        return f\"Patient: {self.user.first_name} {self.user.last_name}\"\nclass DoctorProfile(models.Model):\n    user = models.OneToOneField(User, on_delete=models.CASCADE, primary_key=True)",
+        "detail": "rag_project.accounts.models",
+        "documentation": {}
+    },
+    {
+        "label": "DoctorProfile",
+        "kind": 6,
+        "importPath": "rag_project.accounts.models",
+        "description": "rag_project.accounts.models",
+        "peekOfCode": "class DoctorProfile(models.Model):\n    user = models.OneToOneField(User, on_delete=models.CASCADE, primary_key=True)\n    hospital_name = models.CharField(max_length=255)\n    qualification = models.CharField(max_length=255)\n    mobile_no = models.CharField(max_length=15)\n    def __str__(self):\n        return f\"Dr. {self.user.first_name} {self.user.last_name}\"",
+        "detail": "rag_project.accounts.models",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "rag_project.accounts.urls",
+        "description": "rag_project.accounts.urls",
+        "peekOfCode": "app_name = 'accounts'\nurlpatterns = [\n    path('login/', auth_views.LoginView.as_view(template_name='accounts/login.html'), name='login'),\n    path('logout/', auth_views.LogoutView.as_view(), name='logout'),\n    path('register/', register_selection, name='register_selection'),\n    path('register/patient/', PatientSignUpView.as_view(), name='patient_register'),\n    path('register/doctor/', DoctorSignUpView.as_view(), name='doctor_register'),\n]",
+        "detail": "rag_project.accounts.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "rag_project.accounts.urls",
+        "description": "rag_project.accounts.urls",
+        "peekOfCode": "urlpatterns = [\n    path('login/', auth_views.LoginView.as_view(template_name='accounts/login.html'), name='login'),\n    path('logout/', auth_views.LogoutView.as_view(), name='logout'),\n    path('register/', register_selection, name='register_selection'),\n    path('register/patient/', PatientSignUpView.as_view(), name='patient_register'),\n    path('register/doctor/', DoctorSignUpView.as_view(), name='doctor_register'),\n]",
+        "detail": "rag_project.accounts.urls",
+        "documentation": {}
+    },
+    {
+        "label": "PatientSignUpView",
+        "kind": 6,
+        "importPath": "rag_project.accounts.views",
+        "description": "rag_project.accounts.views",
+        "peekOfCode": "class PatientSignUpView(CreateView):\n    model = User\n    form_class = PatientSignUpForm\n    template_name = 'accounts/patient_register.html'\n    def get_context_data(self, **kwargs):\n        kwargs['user_type'] = 'patient'\n        return super().get_context_data(**kwargs)\n    def form_valid(self, form):\n        user = form.save()\n        login(self.request, user)",
+        "detail": "rag_project.accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "DoctorSignUpView",
+        "kind": 6,
+        "importPath": "rag_project.accounts.views",
+        "description": "rag_project.accounts.views",
+        "peekOfCode": "class DoctorSignUpView(CreateView):\n    model = User\n    form_class = DoctorSignUpForm\n    template_name = 'accounts/doctor_register.html'\n    def get_context_data(self, **kwargs):\n        kwargs['user_type'] = 'doctor'\n        return super().get_context_data(**kwargs)\n    def form_valid(self, form):\n        user = form.save()\n        login(self.request, user)",
+        "detail": "rag_project.accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "register_selection",
+        "kind": 2,
+        "importPath": "rag_project.accounts.views",
+        "description": "rag_project.accounts.views",
+        "peekOfCode": "def register_selection(request):\n    return render(request, 'accounts/register_selection.html')\n@login_required\ndef login_redirect_view(request):\n    if request.user.role == 'DOCTOR':\n        # UPDATED: Redirect to the new app's dashboard\n        return redirect('doctor_tools:dashboard')\n    elif request.user.role == 'PATIENT':\n        return redirect('index')\n    else:",
+        "detail": "rag_project.accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "login_redirect_view",
+        "kind": 2,
+        "importPath": "rag_project.accounts.views",
+        "description": "rag_project.accounts.views",
+        "peekOfCode": "def login_redirect_view(request):\n    if request.user.role == 'DOCTOR':\n        # UPDATED: Redirect to the new app's dashboard\n        return redirect('doctor_tools:dashboard')\n    elif request.user.role == 'PATIENT':\n        return redirect('index')\n    else:\n        return redirect('accounts:login')",
+        "detail": "rag_project.accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "rag_project.appointments.migrations.0001_initial",
+        "description": "rag_project.appointments.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Appointment',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "rag_project.appointments.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "AppointmentsConfig",
+        "kind": 6,
+        "importPath": "rag_project.appointments.apps",
+        "description": "rag_project.appointments.apps",
+        "peekOfCode": "class AppointmentsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'appointments'",
+        "detail": "rag_project.appointments.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Appointment",
+        "kind": 6,
+        "importPath": "rag_project.appointments.models",
+        "description": "rag_project.appointments.models",
+        "peekOfCode": "class Appointment(models.Model):\n    class Status(models.TextChoices):\n        PENDING = 'PENDING', 'Pending'\n        CONFIRMED = 'CONFIRMED', 'Confirmed'\n        CANCELLED = 'CANCELLED', 'Cancelled'\n    patient = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='patient_appointments')\n    doctor = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.SET_NULL, null=True, blank=True, related_name='doctor_appointments')\n    requested_hospital_name = models.CharField(max_length=255)\n    requested_hospital_address = models.TextField()\n    status = models.CharField(max_length=10, choices=Status.choices, default=Status.PENDING)",
+        "detail": "rag_project.appointments.models",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "rag_project.appointments.urls",
+        "description": "rag_project.appointments.urls",
+        "peekOfCode": "app_name = 'appointments'\nurlpatterns = [\n    path('api/find-hospitals/', views.find_hospitals_api, name='find_hospitals'),\n    path('api/request/', views.create_appointment_request_api, name='create_request'),\n    path('api/confirm/<int:pk>/', views.confirm_appointment_api, name='confirm'),\n]",
+        "detail": "rag_project.appointments.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "rag_project.appointments.urls",
+        "description": "rag_project.appointments.urls",
+        "peekOfCode": "urlpatterns = [\n    path('api/find-hospitals/', views.find_hospitals_api, name='find_hospitals'),\n    path('api/request/', views.create_appointment_request_api, name='create_request'),\n    path('api/confirm/<int:pk>/', views.confirm_appointment_api, name='confirm'),\n]",
+        "detail": "rag_project.appointments.urls",
+        "documentation": {}
+    },
+    {
+        "label": "find_hospitals",
+        "kind": 2,
+        "importPath": "rag_project.appointments.utils",
+        "description": "rag_project.appointments.utils",
+        "peekOfCode": "def find_hospitals(location):\n    api_key = os.getenv(\"SERPAPI_API_KEY\")\n    if not api_key:\n        raise ValueError(\"SERPAPI_API_KEY environment variable not set.\")\n    params = {\n        \"engine\": \"google_maps\",\n        \"q\": f\"diabetes hospitals near {location}\",\n        \"type\": \"search\",\n        \"api_key\": api_key,\n        \"hl\": \"en\",",
+        "detail": "rag_project.appointments.utils",
+        "documentation": {}
+    },
+    {
+        "label": "find_hospitals_api",
+        "kind": 2,
+        "importPath": "rag_project.appointments.views",
+        "description": "rag_project.appointments.views",
+        "peekOfCode": "def find_hospitals_api(request):\n    location = request.GET.get('location')\n    if not location:\n        return JsonResponse({'error': 'Location is required.'}, status=400)\n    try:\n        hospitals = find_hospitals(location)\n        return JsonResponse({'hospitals': hospitals})\n    except Exception as e:\n        return JsonResponse({'error': str(e)}, status=500)\n@login_required",
+        "detail": "rag_project.appointments.views",
+        "documentation": {}
+    },
+    {
+        "label": "create_appointment_request_api",
+        "kind": 2,
+        "importPath": "rag_project.appointments.views",
+        "description": "rag_project.appointments.views",
+        "peekOfCode": "def create_appointment_request_api(request):\n    if request.method != 'POST':\n        return JsonResponse({'error': 'Invalid request method'}, status=405)\n    if request.user.role != User.Role.PATIENT:\n        return JsonResponse({'error': 'Forbidden'}, status=403)\n    data = json.loads(request.body)\n    Appointment.objects.create(\n        patient=request.user,\n        requested_hospital_name=data.get('name'),\n        requested_hospital_address=data.get('address'),",
+        "detail": "rag_project.appointments.views",
+        "documentation": {}
+    },
+    {
+        "label": "confirm_appointment_api",
+        "kind": 2,
+        "importPath": "rag_project.appointments.views",
+        "description": "rag_project.appointments.views",
+        "peekOfCode": "def confirm_appointment_api(request, pk):\n    if request.method != 'POST':\n        return JsonResponse({'error': 'Invalid request method'}, status=405)\n    if request.user.role != User.Role.DOCTOR:\n        return JsonResponse({'error': 'Forbidden'}, status=403)\n    appointment = get_object_or_404(Appointment, pk=pk)\n    data = json.loads(request.body)\n    appointment.doctor = request.user\n    appointment.appointment_date = data.get('date')\n    appointment.appointment_time = data.get('time')",
+        "detail": "rag_project.appointments.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_analysis_chain",
+        "kind": 2,
+        "importPath": "rag_project.core.rag_logic.chain",
+        "description": "rag_project.core.rag_logic.chain",
+        "peekOfCode": "def get_analysis_chain():\n    \"\"\"\n    Returns a LangChain chain that takes a conversation history and performs\n    the final analysis to determine if the condition is minor or major.\n    \"\"\"\n    prompt = ChatPromptTemplate.from_template(ANALYSIS_PROMPT_TEMPLATE)\n    llm = ChatGoogleGenerativeAI(model=config.LLM_MODEL, temperature=0.5)\n    analysis_chain = (\n        prompt\n        | llm",
+        "detail": "rag_project.core.rag_logic.chain",
+        "documentation": {}
+    },
+    {
+        "label": "CONVERSATION_STAGES",
+        "kind": 5,
+        "importPath": "rag_project.core.rag_logic.chain",
+        "description": "rag_project.core.rag_logic.chain",
+        "peekOfCode": "CONVERSATION_STAGES = {\n    'GET_INITIAL_PROBLEM': {\n        'prompt': \"To start, could you please tell me about the main problem or symptoms you are experiencing?\",\n        'next_stage': 'ASK_DIET'\n    },\n    'ASK_DIET': {\n        'prompt': \"Thank you for sharing. Could you describe your typical daily diet? What do you usually eat for breakfast, lunch, and dinner?\",\n        'next_stage': 'ASK_ROUTINE'\n    },\n    'ASK_ROUTINE': {",
+        "detail": "rag_project.core.rag_logic.chain",
+        "documentation": {}
+    },
+    {
+        "label": "ANALYSIS_PROMPT_TEMPLATE",
+        "kind": 5,
+        "importPath": "rag_project.core.rag_logic.chain",
+        "description": "rag_project.core.rag_logic.chain",
+        "peekOfCode": "ANALYSIS_PROMPT_TEMPLATE = \"\"\"\nYou are an expert AI medical assistant specializing in diabetes screening.\nYour task is to analyze the following conversation transcript with a patient and determine the potential severity of their condition.\n**Conversation Transcript:**\n{chat_history}\n**Your Analysis Instructions:**\n1.  **Review the entire transcript.** Pay close attention to the patient's diet, daily routine, sleep cycle, and listed symptoms.\n2.  **Categorize the risk level** as either \"Minor\" or \"Major\" based on classic diabetes indicators.\n3.  **Generate a response based on the category:**\n    * If the risk is **\"Minor\"**, generate an encouraging message with a sample one-week wellness routine.",
+        "detail": "rag_project.core.rag_logic.chain",
+        "documentation": {}
+    },
+    {
+        "label": "GOOGLE_API_KEY",
+        "kind": 5,
+        "importPath": "rag_project.core.rag_logic.config",
+        "description": "rag_project.core.rag_logic.config",
+        "peekOfCode": "GOOGLE_API_KEY = os.getenv(\"GOOGLE_API_KEY\")\nif not GOOGLE_API_KEY:\n    raise ValueError(\"GOOGLE_API_KEY not found. Please set it in your .env file.\")\n# --- Qdrant Configuration ---\nQDRANT_HOST = os.getenv(\"QDRANT_HOST\", \"localhost\")\nQDRANT_PORT = int(os.getenv(\"QDRANT_PORT\", 6333))\nCOLLECTION_NAME = os.getenv(\"COLLECTION_NAME\", \"diabetes_rag_gemini\")\n# --- Model Configuration ---\nEMBEDDING_MODEL = os.getenv(\"EMBEDDING_MODEL\", \"models/embedding-001\")\nLLM_MODEL = os.getenv(\"LLM_MODEL\", \"gemini-1.5-flash-latest\")",
+        "detail": "rag_project.core.rag_logic.config",
+        "documentation": {}
+    },
+    {
+        "label": "QDRANT_HOST",
+        "kind": 5,
+        "importPath": "rag_project.core.rag_logic.config",
+        "description": "rag_project.core.rag_logic.config",
+        "peekOfCode": "QDRANT_HOST = os.getenv(\"QDRANT_HOST\", \"localhost\")\nQDRANT_PORT = int(os.getenv(\"QDRANT_PORT\", 6333))\nCOLLECTION_NAME = os.getenv(\"COLLECTION_NAME\", \"diabetes_rag_gemini\")\n# --- Model Configuration ---\nEMBEDDING_MODEL = os.getenv(\"EMBEDDING_MODEL\", \"models/embedding-001\")\nLLM_MODEL = os.getenv(\"LLM_MODEL\", \"gemini-1.5-flash-latest\")\n# --- Data Directories ---\nDATA_DIR_GENERAL = \"./data/general_docs\"\nDATA_DIR_PATIENTS = \"./data/patient_records\"\n# --- Text Splitting Configuration ---",
+        "detail": "rag_project.core.rag_logic.config",
+        "documentation": {}
+    },
+    {
+        "label": "QDRANT_PORT",
+        "kind": 5,
+        "importPath": "rag_project.core.rag_logic.config",
+        "description": "rag_project.core.rag_logic.config",
+        "peekOfCode": "QDRANT_PORT = int(os.getenv(\"QDRANT_PORT\", 6333))\nCOLLECTION_NAME = os.getenv(\"COLLECTION_NAME\", \"diabetes_rag_gemini\")\n# --- Model Configuration ---\nEMBEDDING_MODEL = os.getenv(\"EMBEDDING_MODEL\", \"models/embedding-001\")\nLLM_MODEL = os.getenv(\"LLM_MODEL\", \"gemini-1.5-flash-latest\")\n# --- Data Directories ---\nDATA_DIR_GENERAL = \"./data/general_docs\"\nDATA_DIR_PATIENTS = \"./data/patient_records\"\n# --- Text Splitting Configuration ---\nCHUNK_SIZE = 1000",
+        "detail": "rag_project.core.rag_logic.config",
+        "documentation": {}
+    },
+    {
+        "label": "COLLECTION_NAME",
+        "kind": 5,
+        "importPath": "rag_project.core.rag_logic.config",
+        "description": "rag_project.core.rag_logic.config",
+        "peekOfCode": "COLLECTION_NAME = os.getenv(\"COLLECTION_NAME\", \"diabetes_rag_gemini\")\n# --- Model Configuration ---\nEMBEDDING_MODEL = os.getenv(\"EMBEDDING_MODEL\", \"models/embedding-001\")\nLLM_MODEL = os.getenv(\"LLM_MODEL\", \"gemini-1.5-flash-latest\")\n# --- Data Directories ---\nDATA_DIR_GENERAL = \"./data/general_docs\"\nDATA_DIR_PATIENTS = \"./data/patient_records\"\n# --- Text Splitting Configuration ---\nCHUNK_SIZE = 1000\nCHUNK_OVERLAP = 150",
+        "detail": "rag_project.core.rag_logic.config",
+        "documentation": {}
+    },
+    {
+        "label": "EMBEDDING_MODEL",
+        "kind": 5,
+        "importPath": "rag_project.core.rag_logic.config",
+        "description": "rag_project.core.rag_logic.config",
+        "peekOfCode": "EMBEDDING_MODEL = os.getenv(\"EMBEDDING_MODEL\", \"models/embedding-001\")\nLLM_MODEL = os.getenv(\"LLM_MODEL\", \"gemini-1.5-flash-latest\")\n# --- Data Directories ---\nDATA_DIR_GENERAL = \"./data/general_docs\"\nDATA_DIR_PATIENTS = \"./data/patient_records\"\n# --- Text Splitting Configuration ---\nCHUNK_SIZE = 1000\nCHUNK_OVERLAP = 150",
+        "detail": "rag_project.core.rag_logic.config",
+        "documentation": {}
+    },
+    {
+        "label": "LLM_MODEL",
+        "kind": 5,
+        "importPath": "rag_project.core.rag_logic.config",
+        "description": "rag_project.core.rag_logic.config",
+        "peekOfCode": "LLM_MODEL = os.getenv(\"LLM_MODEL\", \"gemini-1.5-flash-latest\")\n# --- Data Directories ---\nDATA_DIR_GENERAL = \"./data/general_docs\"\nDATA_DIR_PATIENTS = \"./data/patient_records\"\n# --- Text Splitting Configuration ---\nCHUNK_SIZE = 1000\nCHUNK_OVERLAP = 150",
+        "detail": "rag_project.core.rag_logic.config",
+        "documentation": {}
+    },
+    {
+        "label": "DATA_DIR_GENERAL",
+        "kind": 5,
+        "importPath": "rag_project.core.rag_logic.config",
+        "description": "rag_project.core.rag_logic.config",
+        "peekOfCode": "DATA_DIR_GENERAL = \"./data/general_docs\"\nDATA_DIR_PATIENTS = \"./data/patient_records\"\n# --- Text Splitting Configuration ---\nCHUNK_SIZE = 1000\nCHUNK_OVERLAP = 150",
+        "detail": "rag_project.core.rag_logic.config",
+        "documentation": {}
+    },
+    {
+        "label": "DATA_DIR_PATIENTS",
+        "kind": 5,
+        "importPath": "rag_project.core.rag_logic.config",
+        "description": "rag_project.core.rag_logic.config",
+        "peekOfCode": "DATA_DIR_PATIENTS = \"./data/patient_records\"\n# --- Text Splitting Configuration ---\nCHUNK_SIZE = 1000\nCHUNK_OVERLAP = 150",
+        "detail": "rag_project.core.rag_logic.config",
+        "documentation": {}
+    },
+    {
+        "label": "CHUNK_SIZE",
+        "kind": 5,
+        "importPath": "rag_project.core.rag_logic.config",
+        "description": "rag_project.core.rag_logic.config",
+        "peekOfCode": "CHUNK_SIZE = 1000\nCHUNK_OVERLAP = 150",
+        "detail": "rag_project.core.rag_logic.config",
+        "documentation": {}
+    },
+    {
+        "label": "CHUNK_OVERLAP",
+        "kind": 5,
+        "importPath": "rag_project.core.rag_logic.config",
+        "description": "rag_project.core.rag_logic.config",
+        "peekOfCode": "CHUNK_OVERLAP = 150",
+        "detail": "rag_project.core.rag_logic.config",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "rag_project.core.rag_logic.ingest",
+        "description": "rag_project.core.rag_logic.ingest",
+        "peekOfCode": "def main():\n    \"\"\"\n    Main function to perform data ingestion, chunking, embedding, and storage.\n    \"\"\"\n    print(\"🚀 Starting data ingestion process with Gemini embeddings...\")\n    # 1. Load documents\n    print(f\"📂 Loading documents...\")\n    all_docs = utils.load_documents(config.DATA_DIR_GENERAL) + utils.load_documents(config.DATA_DIR_PATIENTS)\n    if not all_docs:\n        print(\"No documents found. Exiting.\")",
+        "detail": "rag_project.core.rag_logic.ingest",
+        "documentation": {}
+    },
+    {
+        "label": "image_to_base64",
+        "kind": 2,
+        "importPath": "rag_project.core.rag_logic.utils",
+        "description": "rag_project.core.rag_logic.utils",
+        "peekOfCode": "def image_to_base64(image_path):\n    \"\"\"Converts an image file to a base64 encoded string.\"\"\"\n    with open(image_path, \"rb\") as image_file:\n        return base64.b64encode(image_file.read()).decode('utf-8')\ndef load_documents(directory_path: str):\n    \"\"\"\n    Loads documents from the specified directory.\n    - PDFs are loaded with PyPDFLoader.\n    - Images (PNG, JPG) are processed using Gemini Vision for OCR.\n    \"\"\"",
+        "detail": "rag_project.core.rag_logic.utils",
+        "documentation": {}
+    },
+    {
+        "label": "load_documents",
+        "kind": 2,
+        "importPath": "rag_project.core.rag_logic.utils",
+        "description": "rag_project.core.rag_logic.utils",
+        "peekOfCode": "def load_documents(directory_path: str):\n    \"\"\"\n    Loads documents from the specified directory.\n    - PDFs are loaded with PyPDFLoader.\n    - Images (PNG, JPG) are processed using Gemini Vision for OCR.\n    \"\"\"\n    documents = []\n    if not os.path.isdir(directory_path):\n        logging.error(f\"Directory not found: {directory_path}\")\n        return documents",
+        "detail": "rag_project.core.rag_logic.utils",
+        "documentation": {}
+    },
+    {
+        "label": "CoreConfig",
+        "kind": 6,
+        "importPath": "rag_project.core.apps",
+        "description": "rag_project.core.apps",
+        "peekOfCode": "class CoreConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'core'",
+        "detail": "rag_project.core.apps",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "rag_project.core.urls",
+        "description": "rag_project.core.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', views.index, name='index'),\n    path('chat/', views.chat, name='chat'),\n    path('doctor/dashboard/', views.doctor_dashboard, name='doctor_dashboard'),\n    path('reset-chat/', views.reset_chat, name='reset_chat'),\n    path('api/my-appointments/', views.get_patient_appointments_api, name='my_appointments'),\n]",
+        "detail": "rag_project.core.urls",
+        "documentation": {}
+    },
+    {
+        "label": "chat",
+        "kind": 2,
+        "importPath": "rag_project.core.views",
+        "description": "rag_project.core.views",
+        "peekOfCode": "def chat(request):\n    \"\"\"\n    Handles the conversational chat API with the updated, more reliable booking flow.\n    \"\"\"\n    if request.method != 'POST':\n        return JsonResponse({'error': 'Invalid request method'}, status=405)\n    body = json.loads(request.body.decode('utf-8'))\n    user_message = body.get('question', '')\n    chat_history = request.session.get('chat_history', [])\n    current_stage = request.session.get('conversation_stage', 'GET_INITIAL_PROBLEM')",
+        "detail": "rag_project.core.views",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "rag_project.core.views",
+        "description": "rag_project.core.views",
+        "peekOfCode": "def index(request):\n    request.session['chat_history'] = []\n    request.session['conversation_stage'] = 'GET_INITIAL_PROBLEM'\n    return render(request, 'core/index.html')\n@login_required\ndef get_patient_appointments_api(request):\n    appointments = Appointment.objects.filter(patient=request.user).order_by('-created_at')\n    data = [{\n        'hospital': app.requested_hospital_name,\n        'status': app.get_status_display(),",
+        "detail": "rag_project.core.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_patient_appointments_api",
+        "kind": 2,
+        "importPath": "rag_project.core.views",
+        "description": "rag_project.core.views",
+        "peekOfCode": "def get_patient_appointments_api(request):\n    appointments = Appointment.objects.filter(patient=request.user).order_by('-created_at')\n    data = [{\n        'hospital': app.requested_hospital_name,\n        'status': app.get_status_display(),\n        'date': app.appointment_date,\n        'time': app.appointment_time,\n        'doctor': f\"{app.doctor.first_name} {app.doctor.last_name}\" if app.doctor else None\n    } for app in appointments]\n    return JsonResponse({'appointments': data})",
+        "detail": "rag_project.core.views",
+        "documentation": {}
+    },
+    {
+        "label": "reset_chat",
+        "kind": 2,
+        "importPath": "rag_project.core.views",
+        "description": "rag_project.core.views",
+        "peekOfCode": "def reset_chat(request):\n    request.session['chat_history'] = []\n    request.session['conversation_stage'] = 'GET_INITIAL_PROBLEM'\n    initial_prompt = \"Hello! I am a specialized AI agent for diabetes screening. To start, could you please tell me about the main problem or symptoms you are experiencing?\"\n    return JsonResponse({'answer': initial_prompt})\n@login_required\ndef doctor_dashboard(request):\n    if request.user.role != 'DOCTOR':\n        return redirect('index') \n    return redirect('doctor_tools:dashboard')",
+        "detail": "rag_project.core.views",
+        "documentation": {}
+    },
+    {
+        "label": "doctor_dashboard",
+        "kind": 2,
+        "importPath": "rag_project.core.views",
+        "description": "rag_project.core.views",
+        "peekOfCode": "def doctor_dashboard(request):\n    if request.user.role != 'DOCTOR':\n        return redirect('index') \n    return redirect('doctor_tools:dashboard')",
+        "detail": "rag_project.core.views",
+        "documentation": {}
+    },
+    {
+        "label": "Command",
+        "kind": 6,
+        "importPath": "rag_project.doctor_tools.management.commands.ingest_doctor_data",
+        "description": "rag_project.doctor_tools.management.commands.ingest_doctor_data",
+        "peekOfCode": "class Command(BaseCommand):\n    help = 'Ingests patient conversations and knowledge base into Qdrant for the doctor tool.'\n    def handle(self, *args, **options):\n        self.stdout.write(self.style.SUCCESS(\"🚀 Starting data ingestion process...\"))\n        # 1. Load data sources\n        self.stdout.write(f\"📂 Loading patient conversations from '{rag_config.CONVERSATIONS_DIR}'...\")\n        conversations = utils.load_json_conversations(rag_config.CONVERSATIONS_DIR)\n        self.stdout.write(f\"📚 Loading knowledge base documents from '{rag_config.KNOWLEDGE_BASE_DIR}'...\")\n        knowledge_docs = utils.load_knowledge_base_documents(rag_config.KNOWLEDGE_BASE_DIR)\n        all_docs = conversations + knowledge_docs",
+        "detail": "rag_project.doctor_tools.management.commands.ingest_doctor_data",
+        "documentation": {}
+    },
+    {
+        "label": "get_doctor_rag_chain",
+        "kind": 2,
+        "importPath": "rag_project.doctor_tools.rag_logic.chain",
+        "description": "rag_project.doctor_tools.rag_logic.chain",
+        "peekOfCode": "def get_doctor_rag_chain():\n    client = qdrant_client.QdrantClient(host=rag_config.QDRANT_HOST, port=rag_config.QDRANT_PORT)\n    embeddings = GoogleGenerativeAIEmbeddings(\n        model=rag_config.EMBEDDING_MODEL,\n        google_api_key=rag_config.GOOGLE_API_KEY\n    )\n    qdrant_vector_store = Qdrant(\n        client=client,\n        collection_name=rag_config.COLLECTION_NAME,\n        embeddings=embeddings",
+        "detail": "rag_project.doctor_tools.rag_logic.chain",
+        "documentation": {}
+    },
+    {
+        "label": "GOOGLE_API_KEY",
+        "kind": 5,
+        "importPath": "rag_project.doctor_tools.rag_logic.rag_config",
+        "description": "rag_project.doctor_tools.rag_logic.rag_config",
+        "peekOfCode": "GOOGLE_API_KEY = os.getenv(\"GOOGLE_API_KEY\")\n# --- Project Paths ---\nDATA_DIR = os.path.join(settings.BASE_DIR, \"data\")\nCONVERSATIONS_DIR = os.path.join(DATA_DIR, \"conversations\")\nKNOWLEDGE_BASE_DIR = os.path.join(DATA_DIR, \"knowledge_base\")\n# --- Qdrant Configuration ---\nQDRANT_HOST = \"localhost\"\nQDRANT_PORT = 6333\nCOLLECTION_NAME = \"diabetes_management\"\n# --- LangChain Model Configuration ---",
+        "detail": "rag_project.doctor_tools.rag_logic.rag_config",
+        "documentation": {}
+    },
+    {
+        "label": "DATA_DIR",
+        "kind": 5,
+        "importPath": "rag_project.doctor_tools.rag_logic.rag_config",
+        "description": "rag_project.doctor_tools.rag_logic.rag_config",
+        "peekOfCode": "DATA_DIR = os.path.join(settings.BASE_DIR, \"data\")\nCONVERSATIONS_DIR = os.path.join(DATA_DIR, \"conversations\")\nKNOWLEDGE_BASE_DIR = os.path.join(DATA_DIR, \"knowledge_base\")\n# --- Qdrant Configuration ---\nQDRANT_HOST = \"localhost\"\nQDRANT_PORT = 6333\nCOLLECTION_NAME = \"diabetes_management\"\n# --- LangChain Model Configuration ---\nEMBEDDING_MODEL = \"models/embedding-001\"\nLLM_MODEL = \"gemini-1.5-pro-latest\"",
+        "detail": "rag_project.doctor_tools.rag_logic.rag_config",
+        "documentation": {}
+    },
+    {
+        "label": "CONVERSATIONS_DIR",
+        "kind": 5,
+        "importPath": "rag_project.doctor_tools.rag_logic.rag_config",
+        "description": "rag_project.doctor_tools.rag_logic.rag_config",
+        "peekOfCode": "CONVERSATIONS_DIR = os.path.join(DATA_DIR, \"conversations\")\nKNOWLEDGE_BASE_DIR = os.path.join(DATA_DIR, \"knowledge_base\")\n# --- Qdrant Configuration ---\nQDRANT_HOST = \"localhost\"\nQDRANT_PORT = 6333\nCOLLECTION_NAME = \"diabetes_management\"\n# --- LangChain Model Configuration ---\nEMBEDDING_MODEL = \"models/embedding-001\"\nLLM_MODEL = \"gemini-1.5-pro-latest\"\n# --- Text Splitting Configuration ---",
+        "detail": "rag_project.doctor_tools.rag_logic.rag_config",
+        "documentation": {}
+    },
+    {
+        "label": "KNOWLEDGE_BASE_DIR",
+        "kind": 5,
+        "importPath": "rag_project.doctor_tools.rag_logic.rag_config",
+        "description": "rag_project.doctor_tools.rag_logic.rag_config",
+        "peekOfCode": "KNOWLEDGE_BASE_DIR = os.path.join(DATA_DIR, \"knowledge_base\")\n# --- Qdrant Configuration ---\nQDRANT_HOST = \"localhost\"\nQDRANT_PORT = 6333\nCOLLECTION_NAME = \"diabetes_management\"\n# --- LangChain Model Configuration ---\nEMBEDDING_MODEL = \"models/embedding-001\"\nLLM_MODEL = \"gemini-1.5-pro-latest\"\n# --- Text Splitting Configuration ---\nCHUNK_SIZE = 1500",
+        "detail": "rag_project.doctor_tools.rag_logic.rag_config",
+        "documentation": {}
+    },
+    {
+        "label": "QDRANT_HOST",
+        "kind": 5,
+        "importPath": "rag_project.doctor_tools.rag_logic.rag_config",
+        "description": "rag_project.doctor_tools.rag_logic.rag_config",
+        "peekOfCode": "QDRANT_HOST = \"localhost\"\nQDRANT_PORT = 6333\nCOLLECTION_NAME = \"diabetes_management\"\n# --- LangChain Model Configuration ---\nEMBEDDING_MODEL = \"models/embedding-001\"\nLLM_MODEL = \"gemini-1.5-pro-latest\"\n# --- Text Splitting Configuration ---\nCHUNK_SIZE = 1500\nCHUNK_OVERLAP = 200",
+        "detail": "rag_project.doctor_tools.rag_logic.rag_config",
+        "documentation": {}
+    },
+    {
+        "label": "QDRANT_PORT",
+        "kind": 5,
+        "importPath": "rag_project.doctor_tools.rag_logic.rag_config",
+        "description": "rag_project.doctor_tools.rag_logic.rag_config",
+        "peekOfCode": "QDRANT_PORT = 6333\nCOLLECTION_NAME = \"diabetes_management\"\n# --- LangChain Model Configuration ---\nEMBEDDING_MODEL = \"models/embedding-001\"\nLLM_MODEL = \"gemini-1.5-pro-latest\"\n# --- Text Splitting Configuration ---\nCHUNK_SIZE = 1500\nCHUNK_OVERLAP = 200",
+        "detail": "rag_project.doctor_tools.rag_logic.rag_config",
+        "documentation": {}
+    },
+    {
+        "label": "COLLECTION_NAME",
+        "kind": 5,
+        "importPath": "rag_project.doctor_tools.rag_logic.rag_config",
+        "description": "rag_project.doctor_tools.rag_logic.rag_config",
+        "peekOfCode": "COLLECTION_NAME = \"diabetes_management\"\n# --- LangChain Model Configuration ---\nEMBEDDING_MODEL = \"models/embedding-001\"\nLLM_MODEL = \"gemini-1.5-pro-latest\"\n# --- Text Splitting Configuration ---\nCHUNK_SIZE = 1500\nCHUNK_OVERLAP = 200",
+        "detail": "rag_project.doctor_tools.rag_logic.rag_config",
+        "documentation": {}
+    },
+    {
+        "label": "EMBEDDING_MODEL",
+        "kind": 5,
+        "importPath": "rag_project.doctor_tools.rag_logic.rag_config",
+        "description": "rag_project.doctor_tools.rag_logic.rag_config",
+        "peekOfCode": "EMBEDDING_MODEL = \"models/embedding-001\"\nLLM_MODEL = \"gemini-1.5-pro-latest\"\n# --- Text Splitting Configuration ---\nCHUNK_SIZE = 1500\nCHUNK_OVERLAP = 200",
+        "detail": "rag_project.doctor_tools.rag_logic.rag_config",
+        "documentation": {}
+    },
+    {
+        "label": "LLM_MODEL",
+        "kind": 5,
+        "importPath": "rag_project.doctor_tools.rag_logic.rag_config",
+        "description": "rag_project.doctor_tools.rag_logic.rag_config",
+        "peekOfCode": "LLM_MODEL = \"gemini-1.5-pro-latest\"\n# --- Text Splitting Configuration ---\nCHUNK_SIZE = 1500\nCHUNK_OVERLAP = 200",
+        "detail": "rag_project.doctor_tools.rag_logic.rag_config",
+        "documentation": {}
+    },
+    {
+        "label": "CHUNK_SIZE",
+        "kind": 5,
+        "importPath": "rag_project.doctor_tools.rag_logic.rag_config",
+        "description": "rag_project.doctor_tools.rag_logic.rag_config",
+        "peekOfCode": "CHUNK_SIZE = 1500\nCHUNK_OVERLAP = 200",
+        "detail": "rag_project.doctor_tools.rag_logic.rag_config",
+        "documentation": {}
+    },
+    {
+        "label": "CHUNK_OVERLAP",
+        "kind": 5,
+        "importPath": "rag_project.doctor_tools.rag_logic.rag_config",
+        "description": "rag_project.doctor_tools.rag_logic.rag_config",
+        "peekOfCode": "CHUNK_OVERLAP = 200",
+        "detail": "rag_project.doctor_tools.rag_logic.rag_config",
+        "documentation": {}
+    },
+    {
+        "label": "load_json_conversations",
+        "kind": 2,
+        "importPath": "rag_project.doctor_tools.rag_logic.utils",
+        "description": "rag_project.doctor_tools.rag_logic.utils",
+        "peekOfCode": "def load_json_conversations(directory_path: str):\n    documents = []\n    if not os.path.isdir(directory_path):\n        logging.error(f\"Directory not found: {directory_path}\")\n        return documents\n    for filename in os.listdir(directory_path):\n        if filename.lower().endswith(\".json\"):\n            file_path = os.path.join(directory_path, filename)\n            try:\n                with open(file_path, 'r', encoding='utf-8') as f:",
+        "detail": "rag_project.doctor_tools.rag_logic.utils",
+        "documentation": {}
+    },
+    {
+        "label": "load_knowledge_base_documents",
+        "kind": 2,
+        "importPath": "rag_project.doctor_tools.rag_logic.utils",
+        "description": "rag_project.doctor_tools.rag_logic.utils",
+        "peekOfCode": "def load_knowledge_base_documents(directory_path: str):\n    if not os.path.isdir(directory_path):\n        logging.error(f\"Directory not found: {directory_path}\")\n        return []\n    loader = DirectoryLoader(\n        directory_path,\n        glob=\"**/*.pdf\",\n        loader_cls=PyPDFLoader,\n        show_progress=True,\n        use_multithreading=True",
+        "detail": "rag_project.doctor_tools.rag_logic.utils",
+        "documentation": {}
+    },
+    {
+        "label": "DoctorToolsConfig",
+        "kind": 6,
+        "importPath": "rag_project.doctor_tools.apps",
+        "description": "rag_project.doctor_tools.apps",
+        "peekOfCode": "class DoctorToolsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'doctor_tools'",
+        "detail": "rag_project.doctor_tools.apps",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "rag_project.doctor_tools.urls",
+        "description": "rag_project.doctor_tools.urls",
+        "peekOfCode": "app_name = 'doctor_tools'\nurlpatterns = [\n    path('dashboard/', views.dashboard_view, name='dashboard'),\n    path('api/ask/', views.ask_question_api, name='ask_api'),\n]",
+        "detail": "rag_project.doctor_tools.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "rag_project.doctor_tools.urls",
+        "description": "rag_project.doctor_tools.urls",
+        "peekOfCode": "urlpatterns = [\n    path('dashboard/', views.dashboard_view, name='dashboard'),\n    path('api/ask/', views.ask_question_api, name='ask_api'),\n]",
+        "detail": "rag_project.doctor_tools.urls",
+        "documentation": {}
+    },
+    {
+        "label": "get_or_initialize_chain",
+        "kind": 2,
+        "importPath": "rag_project.doctor_tools.views",
+        "description": "rag_project.doctor_tools.views",
+        "peekOfCode": "def get_or_initialize_chain():\n    global doctor_rag_chain\n    if doctor_rag_chain is None:\n        nest_asyncio.apply()\n        try:\n            print(\"🚀 Initializing Doctor's RAG chain...\")\n            doctor_rag_chain = get_doctor_rag_chain()\n            print(\"✅ Doctor's RAG chain ready.\")\n        except Exception as e:\n            print(f\"❌ Error initializing Doctor's RAG chain: {e}\")",
+        "detail": "rag_project.doctor_tools.views",
+        "documentation": {}
+    },
+    {
+        "label": "is_doctor",
+        "kind": 2,
+        "importPath": "rag_project.doctor_tools.views",
+        "description": "rag_project.doctor_tools.views",
+        "peekOfCode": "def is_doctor(user):\n    return user.is_authenticated and user.role == 'DOCTOR'\n@login_required\ndef dashboard_view(request):\n    if not is_doctor(request.user):\n        return redirect('index')\n    pending_appointments = Appointment.objects.filter(status=Appointment.Status.PENDING).order_by('created_at')\n    confirmed_appointments = Appointment.objects.filter(doctor=request.user, status=Appointment.Status.CONFIRMED).order_by('-appointment_date', '-appointment_time')\n    context = {\n        'pending_appointments': pending_appointments,",
+        "detail": "rag_project.doctor_tools.views",
+        "documentation": {}
+    },
+    {
+        "label": "dashboard_view",
+        "kind": 2,
+        "importPath": "rag_project.doctor_tools.views",
+        "description": "rag_project.doctor_tools.views",
+        "peekOfCode": "def dashboard_view(request):\n    if not is_doctor(request.user):\n        return redirect('index')\n    pending_appointments = Appointment.objects.filter(status=Appointment.Status.PENDING).order_by('created_at')\n    confirmed_appointments = Appointment.objects.filter(doctor=request.user, status=Appointment.Status.CONFIRMED).order_by('-appointment_date', '-appointment_time')\n    context = {\n        'pending_appointments': pending_appointments,\n        'confirmed_appointments': confirmed_appointments,\n    }\n    return render(request, 'doctor_tools/dashboard.html', context)",
+        "detail": "rag_project.doctor_tools.views",
+        "documentation": {}
+    },
+    {
+        "label": "ask_question_api",
+        "kind": 2,
+        "importPath": "rag_project.doctor_tools.views",
+        "description": "rag_project.doctor_tools.views",
+        "peekOfCode": "def ask_question_api(request):\n    if not is_doctor(request.user):\n        return JsonResponse({'error': 'Forbidden'}, status=403)\n    if request.method != 'POST':\n        return JsonResponse({'error': 'Invalid request method'}, status=405)\n    try:\n        chain = get_or_initialize_chain()\n        if not chain:\n            return JsonResponse({'error': 'RAG chain is not available'}, status=500)\n        body = json.loads(request.body)",
+        "detail": "rag_project.doctor_tools.views",
+        "documentation": {}
+    },
+    {
+        "label": "doctor_rag_chain",
+        "kind": 5,
+        "importPath": "rag_project.doctor_tools.views",
+        "description": "rag_project.doctor_tools.views",
+        "peekOfCode": "doctor_rag_chain = None\ndef get_or_initialize_chain():\n    global doctor_rag_chain\n    if doctor_rag_chain is None:\n        nest_asyncio.apply()\n        try:\n            print(\"🚀 Initializing Doctor's RAG chain...\")\n            doctor_rag_chain = get_doctor_rag_chain()\n            print(\"✅ Doctor's RAG chain ready.\")\n        except Exception as e:",
+        "detail": "rag_project.doctor_tools.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "rag_project.rag_project.asgi",
+        "description": "rag_project.rag_project.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "rag_project.rag_project.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "rag_project.rag_project.settings",
+        "description": "rag_project.rag_project.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\nSECRET_KEY = 'django-insecure-41-9b%g6fd_8uqu8uv!2g8(aif!!ul6_1_^n9p4d#3yd6z_%%4'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
+        "detail": "rag_project.rag_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "rag_project.rag_project.settings",
+        "description": "rag_project.rag_project.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-41-9b%g6fd_8uqu8uv!2g8(aif!!ul6_1_^n9p4d#3yd6z_%%4'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "rag_project.rag_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "rag_project.rag_project.settings",
+        "description": "rag_project.rag_project.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "rag_project.rag_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "rag_project.rag_project.settings",
+        "description": "rag_project.rag_project.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'core','accounts','doctor_tools','appointments',",
+        "detail": "rag_project.rag_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "rag_project.rag_project.settings",
+        "description": "rag_project.rag_project.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'core','accounts','doctor_tools','appointments',\n]\nMIDDLEWARE = [",
+        "detail": "rag_project.rag_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "rag_project.rag_project.settings",
+        "description": "rag_project.rag_project.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'rag_project.urls'",
+        "detail": "rag_project.rag_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "rag_project.rag_project.settings",
+        "description": "rag_project.rag_project.settings",
+        "peekOfCode": "ROOT_URLCONF = 'rag_project.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR / 'templates'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "rag_project.rag_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "rag_project.rag_project.settings",
+        "description": "rag_project.rag_project.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR / 'templates'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',\n                'django.contrib.messages.context_processors.messages',",
+        "detail": "rag_project.rag_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "rag_project.rag_project.settings",
+        "description": "rag_project.rag_project.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'rag_project.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "rag_project.rag_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "rag_project.rag_project.settings",
+        "description": "rag_project.rag_project.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "rag_project.rag_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "rag_project.rag_project.settings",
+        "description": "rag_project.rag_project.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "rag_project.rag_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "rag_project.rag_project.settings",
+        "description": "rag_project.rag_project.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [BASE_DIR / \"static\",]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field",
+        "detail": "rag_project.rag_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "rag_project.rag_project.settings",
+        "description": "rag_project.rag_project.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [BASE_DIR / \"static\",]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "rag_project.rag_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "rag_project.rag_project.settings",
+        "description": "rag_project.rag_project.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [BASE_DIR / \"static\",]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nAUTH_USER_MODEL = 'accounts.User' # Specify the custom user model",
+        "detail": "rag_project.rag_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "rag_project.rag_project.settings",
+        "description": "rag_project.rag_project.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [BASE_DIR / \"static\",]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nAUTH_USER_MODEL = 'accounts.User' # Specify the custom user model\nLOGIN_URL = 'accounts:login'      # URL to redirect to for login",
+        "detail": "rag_project.rag_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "rag_project.rag_project.settings",
+        "description": "rag_project.rag_project.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\nSTATICFILES_DIRS = [BASE_DIR / \"static\",]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nAUTH_USER_MODEL = 'accounts.User' # Specify the custom user model\nLOGIN_URL = 'accounts:login'      # URL to redirect to for login\nLOGIN_REDIRECT_URL = 'index'      # URL to redirect to after successful login\nLOGOUT_REDIRECT_URL = 'accounts:login'",
+        "detail": "rag_project.rag_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "rag_project.rag_project.settings",
+        "description": "rag_project.rag_project.settings",
+        "peekOfCode": "STATICFILES_DIRS = [BASE_DIR / \"static\",]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nAUTH_USER_MODEL = 'accounts.User' # Specify the custom user model\nLOGIN_URL = 'accounts:login'      # URL to redirect to for login\nLOGIN_REDIRECT_URL = 'index'      # URL to redirect to after successful login\nLOGOUT_REDIRECT_URL = 'accounts:login'",
+        "detail": "rag_project.rag_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "rag_project.rag_project.settings",
+        "description": "rag_project.rag_project.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nAUTH_USER_MODEL = 'accounts.User' # Specify the custom user model\nLOGIN_URL = 'accounts:login'      # URL to redirect to for login\nLOGIN_REDIRECT_URL = 'index'      # URL to redirect to after successful login\nLOGOUT_REDIRECT_URL = 'accounts:login'",
+        "detail": "rag_project.rag_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_USER_MODEL",
+        "kind": 5,
+        "importPath": "rag_project.rag_project.settings",
+        "description": "rag_project.rag_project.settings",
+        "peekOfCode": "AUTH_USER_MODEL = 'accounts.User' # Specify the custom user model\nLOGIN_URL = 'accounts:login'      # URL to redirect to for login\nLOGIN_REDIRECT_URL = 'index'      # URL to redirect to after successful login\nLOGOUT_REDIRECT_URL = 'accounts:login'",
+        "detail": "rag_project.rag_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_URL",
+        "kind": 5,
+        "importPath": "rag_project.rag_project.settings",
+        "description": "rag_project.rag_project.settings",
+        "peekOfCode": "LOGIN_URL = 'accounts:login'      # URL to redirect to for login\nLOGIN_REDIRECT_URL = 'index'      # URL to redirect to after successful login\nLOGOUT_REDIRECT_URL = 'accounts:login'",
+        "detail": "rag_project.rag_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_REDIRECT_URL",
+        "kind": 5,
+        "importPath": "rag_project.rag_project.settings",
+        "description": "rag_project.rag_project.settings",
+        "peekOfCode": "LOGIN_REDIRECT_URL = 'index'      # URL to redirect to after successful login\nLOGOUT_REDIRECT_URL = 'accounts:login'",
+        "detail": "rag_project.rag_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGOUT_REDIRECT_URL",
+        "kind": 5,
+        "importPath": "rag_project.rag_project.settings",
+        "description": "rag_project.rag_project.settings",
+        "peekOfCode": "LOGOUT_REDIRECT_URL = 'accounts:login'",
+        "detail": "rag_project.rag_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "rag_project.rag_project.urls",
+        "description": "rag_project.rag_project.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('accounts/', include('accounts.urls')),\n    path('doctor/', include('doctor_tools.urls')),\n    path('appointments/', include('appointments.urls')), # Added\n    path('', include('core.urls')),\n]",
+        "detail": "rag_project.rag_project.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "rag_project.rag_project.wsgi",
+        "description": "rag_project.rag_project.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "rag_project.rag_project.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "rag_project.manage",
+        "description": "rag_project.manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'rag_project.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "rag_project.manage",
+        "documentation": {}
+    },
+    {
+        "label": "get_rag_chain",
+        "kind": 2,
+        "importPath": "src.chain",
+        "description": "src.chain",
+        "peekOfCode": "def get_rag_chain():\n    \"\"\"\n    Initializes and returns a RAG chain powered by Google Gemini.\n    \"\"\"\n    # 1. Initialize Gemini Embeddings and Vector Store\n    embeddings = GoogleGenerativeAIEmbeddings(model=config.EMBEDDING_MODEL) # <-- Changed to Gemini\n    client = qdrant_client.QdrantClient(host=config.QDRANT_HOST, port=config.QDRANT_PORT)\n    vector_store = Qdrant(\n        client=client,\n        collection_name=config.COLLECTION_NAME,",
+        "detail": "src.chain",
+        "documentation": {}
+    },
+    {
+        "label": "GOOGLE_API_KEY",
+        "kind": 5,
+        "importPath": "src.config",
+        "description": "src.config",
+        "peekOfCode": "GOOGLE_API_KEY = os.getenv(\"GOOGLE_API_KEY\")\nif not GOOGLE_API_KEY:\n    raise ValueError(\"GOOGLE_API_KEY not found. Please set it in your .env file.\")\n# --- Qdrant Configuration ---\nQDRANT_HOST = os.getenv(\"QDRANT_HOST\", \"localhost\")\nQDRANT_PORT = int(os.getenv(\"QDRANT_PORT\", 6333))\nCOLLECTION_NAME = os.getenv(\"COLLECTION_NAME\", \"diabetes_rag_gemini\")\n# --- Model Configuration ---\nEMBEDDING_MODEL = os.getenv(\"EMBEDDING_MODEL\", \"models/embedding-001\")\nLLM_MODEL = os.getenv(\"LLM_MODEL\", \"gemini-1.5-flash-latest\")",
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "QDRANT_HOST",
+        "kind": 5,
+        "importPath": "src.config",
+        "description": "src.config",
+        "peekOfCode": "QDRANT_HOST = os.getenv(\"QDRANT_HOST\", \"localhost\")\nQDRANT_PORT = int(os.getenv(\"QDRANT_PORT\", 6333))\nCOLLECTION_NAME = os.getenv(\"COLLECTION_NAME\", \"diabetes_rag_gemini\")\n# --- Model Configuration ---\nEMBEDDING_MODEL = os.getenv(\"EMBEDDING_MODEL\", \"models/embedding-001\")\nLLM_MODEL = os.getenv(\"LLM_MODEL\", \"gemini-1.5-flash-latest\")\n# --- Data Directories ---\nDATA_DIR_GENERAL = \"./data/general_docs\"\nDATA_DIR_PATIENTS = \"./data/patient_records\"\n# --- Text Splitting Configuration ---",
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "QDRANT_PORT",
+        "kind": 5,
+        "importPath": "src.config",
+        "description": "src.config",
+        "peekOfCode": "QDRANT_PORT = int(os.getenv(\"QDRANT_PORT\", 6333))\nCOLLECTION_NAME = os.getenv(\"COLLECTION_NAME\", \"diabetes_rag_gemini\")\n# --- Model Configuration ---\nEMBEDDING_MODEL = os.getenv(\"EMBEDDING_MODEL\", \"models/embedding-001\")\nLLM_MODEL = os.getenv(\"LLM_MODEL\", \"gemini-1.5-flash-latest\")\n# --- Data Directories ---\nDATA_DIR_GENERAL = \"./data/general_docs\"\nDATA_DIR_PATIENTS = \"./data/patient_records\"\n# --- Text Splitting Configuration ---\nCHUNK_SIZE = 1000",
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "COLLECTION_NAME",
+        "kind": 5,
+        "importPath": "src.config",
+        "description": "src.config",
+        "peekOfCode": "COLLECTION_NAME = os.getenv(\"COLLECTION_NAME\", \"diabetes_rag_gemini\")\n# --- Model Configuration ---\nEMBEDDING_MODEL = os.getenv(\"EMBEDDING_MODEL\", \"models/embedding-001\")\nLLM_MODEL = os.getenv(\"LLM_MODEL\", \"gemini-1.5-flash-latest\")\n# --- Data Directories ---\nDATA_DIR_GENERAL = \"./data/general_docs\"\nDATA_DIR_PATIENTS = \"./data/patient_records\"\n# --- Text Splitting Configuration ---\nCHUNK_SIZE = 1000\nCHUNK_OVERLAP = 150",
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "EMBEDDING_MODEL",
+        "kind": 5,
+        "importPath": "src.config",
+        "description": "src.config",
+        "peekOfCode": "EMBEDDING_MODEL = os.getenv(\"EMBEDDING_MODEL\", \"models/embedding-001\")\nLLM_MODEL = os.getenv(\"LLM_MODEL\", \"gemini-1.5-flash-latest\")\n# --- Data Directories ---\nDATA_DIR_GENERAL = \"./data/general_docs\"\nDATA_DIR_PATIENTS = \"./data/patient_records\"\n# --- Text Splitting Configuration ---\nCHUNK_SIZE = 1000\nCHUNK_OVERLAP = 150",
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "LLM_MODEL",
+        "kind": 5,
+        "importPath": "src.config",
+        "description": "src.config",
+        "peekOfCode": "LLM_MODEL = os.getenv(\"LLM_MODEL\", \"gemini-1.5-flash-latest\")\n# --- Data Directories ---\nDATA_DIR_GENERAL = \"./data/general_docs\"\nDATA_DIR_PATIENTS = \"./data/patient_records\"\n# --- Text Splitting Configuration ---\nCHUNK_SIZE = 1000\nCHUNK_OVERLAP = 150",
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "DATA_DIR_GENERAL",
+        "kind": 5,
+        "importPath": "src.config",
+        "description": "src.config",
+        "peekOfCode": "DATA_DIR_GENERAL = \"./data/general_docs\"\nDATA_DIR_PATIENTS = \"./data/patient_records\"\n# --- Text Splitting Configuration ---\nCHUNK_SIZE = 1000\nCHUNK_OVERLAP = 150",
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "DATA_DIR_PATIENTS",
+        "kind": 5,
+        "importPath": "src.config",
+        "description": "src.config",
+        "peekOfCode": "DATA_DIR_PATIENTS = \"./data/patient_records\"\n# --- Text Splitting Configuration ---\nCHUNK_SIZE = 1000\nCHUNK_OVERLAP = 150",
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "CHUNK_SIZE",
+        "kind": 5,
+        "importPath": "src.config",
+        "description": "src.config",
+        "peekOfCode": "CHUNK_SIZE = 1000\nCHUNK_OVERLAP = 150",
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "CHUNK_OVERLAP",
+        "kind": 5,
+        "importPath": "src.config",
+        "description": "src.config",
+        "peekOfCode": "CHUNK_OVERLAP = 150",
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "image_to_base64",
+        "kind": 2,
+        "importPath": "src.utils",
+        "description": "src.utils",
+        "peekOfCode": "def image_to_base64(image_path):\n    \"\"\"Converts an image file to a base64 encoded string.\"\"\"\n    with open(image_path, \"rb\") as image_file:\n        return base64.b64encode(image_file.read()).decode('utf-8')\ndef load_documents(directory_path: str):\n    \"\"\"\n    Loads documents from the specified directory.\n    - PDFs are loaded with PyPDFLoader.\n    - Images (PNG, JPG) are processed using Gemini Vision for OCR.\n    \"\"\"",
+        "detail": "src.utils",
+        "documentation": {}
+    },
+    {
+        "label": "load_documents",
+        "kind": 2,
+        "importPath": "src.utils",
+        "description": "src.utils",
+        "peekOfCode": "def load_documents(directory_path: str):\n    \"\"\"\n    Loads documents from the specified directory.\n    - PDFs are loaded with PyPDFLoader.\n    - Images (PNG, JPG) are processed using Gemini Vision for OCR.\n    \"\"\"\n    documents = []\n    if not os.path.isdir(directory_path):\n        logging.error(f\"Directory not found: {directory_path}\")\n        return documents",
+        "detail": "src.utils",
+        "documentation": {}
+    },
+    {
+        "label": "escape",
+        "kind": 2,
+        "importPath": "venv.Scripts.dumppdf",
+        "description": "venv.Scripts.dumppdf",
+        "peekOfCode": "def escape(s: Union[str, bytes]) -> str:\n    if isinstance(s, bytes):\n        us = str(s, \"latin-1\")\n    else:\n        us = s\n    return ESC_PAT.sub(lambda m: \"&#%d;\" % ord(m.group(0)), us)\ndef dumpxml(out: TextIO, obj: object, codec: Optional[str] = None) -> None:\n    if obj is None:\n        out.write(\"<null />\")\n        return",
+        "detail": "venv.Scripts.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "dumpxml",
+        "kind": 2,
+        "importPath": "venv.Scripts.dumppdf",
+        "description": "venv.Scripts.dumppdf",
+        "peekOfCode": "def dumpxml(out: TextIO, obj: object, codec: Optional[str] = None) -> None:\n    if obj is None:\n        out.write(\"<null />\")\n        return\n    if isinstance(obj, dict):\n        out.write('<dict size=\"%d\">\\n' % len(obj))\n        for k, v in obj.items():\n            out.write(\"<key>%s</key>\\n\" % k)\n            out.write(\"<value>\")\n            dumpxml(out, v)",
+        "detail": "venv.Scripts.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "dumptrailers",
+        "kind": 2,
+        "importPath": "venv.Scripts.dumppdf",
+        "description": "venv.Scripts.dumppdf",
+        "peekOfCode": "def dumptrailers(\n    out: TextIO,\n    doc: PDFDocument,\n    show_fallback_xref: bool = False,\n) -> None:\n    for xref in doc.xrefs:\n        if not isinstance(xref, PDFXRefFallback) or show_fallback_xref:\n            out.write(\"<trailer>\\n\")\n            dumpxml(out, xref.get_trailer())\n            out.write(\"\\n</trailer>\\n\\n\")",
+        "detail": "venv.Scripts.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "dumpallobjs",
+        "kind": 2,
+        "importPath": "venv.Scripts.dumppdf",
+        "description": "venv.Scripts.dumppdf",
+        "peekOfCode": "def dumpallobjs(\n    out: TextIO,\n    doc: PDFDocument,\n    codec: Optional[str] = None,\n    show_fallback_xref: bool = False,\n) -> None:\n    visited = set()\n    out.write(\"<pdf>\")\n    for xref in doc.xrefs:\n        for objid in xref.get_objids():",
+        "detail": "venv.Scripts.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "dumpoutline",
+        "kind": 2,
+        "importPath": "venv.Scripts.dumppdf",
+        "description": "venv.Scripts.dumppdf",
+        "peekOfCode": "def dumpoutline(\n    outfp: TextIO,\n    fname: str,\n    objids: Any,\n    pagenos: Container[int],\n    password: str = \"\",\n    dumpall: bool = False,\n    codec: Optional[str] = None,\n    extractdir: Optional[str] = None,\n) -> None:",
+        "detail": "venv.Scripts.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "extractembedded",
+        "kind": 2,
+        "importPath": "venv.Scripts.dumppdf",
+        "description": "venv.Scripts.dumppdf",
+        "peekOfCode": "def extractembedded(fname: str, password: str, extractdir: str) -> None:\n    def extract1(objid: int, obj: Dict[str, Any]) -> None:\n        filename = os.path.basename(obj.get(\"UF\") or cast(bytes, obj.get(\"F\")).decode())\n        fileref = obj[\"EF\"].get(\"UF\") or obj[\"EF\"].get(\"F\")\n        fileobj = doc.getobj(fileref.objid)\n        if not isinstance(fileobj, PDFStream):\n            error_msg = (\n                \"unable to process PDF: reference for %r is not a \"\n                \"PDFStream\" % filename\n            )",
+        "detail": "venv.Scripts.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "dumppdf",
+        "kind": 2,
+        "importPath": "venv.Scripts.dumppdf",
+        "description": "venv.Scripts.dumppdf",
+        "peekOfCode": "def dumppdf(\n    outfp: TextIO,\n    fname: str,\n    objids: Iterable[int],\n    pagenos: Container[int],\n    password: str = \"\",\n    dumpall: bool = False,\n    codec: Optional[str] = None,\n    extractdir: Optional[str] = None,\n    show_fallback_xref: bool = False,",
+        "detail": "venv.Scripts.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "create_parser",
+        "kind": 2,
+        "importPath": "venv.Scripts.dumppdf",
+        "description": "venv.Scripts.dumppdf",
+        "peekOfCode": "def create_parser() -> ArgumentParser:\n    parser = ArgumentParser(description=__doc__, add_help=True)\n    parser.add_argument(\n        \"files\",\n        type=str,\n        default=None,\n        nargs=\"+\",\n        help=\"One or more paths to PDF files.\",\n    )\n    parser.add_argument(",
+        "detail": "venv.Scripts.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "venv.Scripts.dumppdf",
+        "description": "venv.Scripts.dumppdf",
+        "peekOfCode": "def main(argv: Optional[List[str]] = None) -> None:\n    parser = create_parser()\n    args = parser.parse_args(args=argv)\n    if args.debug:\n        logging.getLogger().setLevel(logging.DEBUG)\n    if args.outfile == \"-\":\n        outfp = sys.stdout\n    else:\n        outfp = open(args.outfile, \"w\")\n    if args.objects:",
+        "detail": "venv.Scripts.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "venv.Scripts.dumppdf",
+        "description": "venv.Scripts.dumppdf",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nESC_PAT = re.compile(r'[\\000-\\037&<>()\"\\042\\047\\134\\177-\\377]')\ndef escape(s: Union[str, bytes]) -> str:\n    if isinstance(s, bytes):\n        us = str(s, \"latin-1\")\n    else:\n        us = s\n    return ESC_PAT.sub(lambda m: \"&#%d;\" % ord(m.group(0)), us)\ndef dumpxml(out: TextIO, obj: object, codec: Optional[str] = None) -> None:\n    if obj is None:",
+        "detail": "venv.Scripts.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "ESC_PAT",
+        "kind": 5,
+        "importPath": "venv.Scripts.dumppdf",
+        "description": "venv.Scripts.dumppdf",
+        "peekOfCode": "ESC_PAT = re.compile(r'[\\000-\\037&<>()\"\\042\\047\\134\\177-\\377]')\ndef escape(s: Union[str, bytes]) -> str:\n    if isinstance(s, bytes):\n        us = str(s, \"latin-1\")\n    else:\n        us = s\n    return ESC_PAT.sub(lambda m: \"&#%d;\" % ord(m.group(0)), us)\ndef dumpxml(out: TextIO, obj: object, codec: Optional[str] = None) -> None:\n    if obj is None:\n        out.write(\"<null />\")",
+        "detail": "venv.Scripts.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "LITERAL_FILESPEC",
+        "kind": 5,
+        "importPath": "venv.Scripts.dumppdf",
+        "description": "venv.Scripts.dumppdf",
+        "peekOfCode": "LITERAL_FILESPEC = LIT(\"Filespec\")\nLITERAL_EMBEDDEDFILE = LIT(\"EmbeddedFile\")\ndef extractembedded(fname: str, password: str, extractdir: str) -> None:\n    def extract1(objid: int, obj: Dict[str, Any]) -> None:\n        filename = os.path.basename(obj.get(\"UF\") or cast(bytes, obj.get(\"F\")).decode())\n        fileref = obj[\"EF\"].get(\"UF\") or obj[\"EF\"].get(\"F\")\n        fileobj = doc.getobj(fileref.objid)\n        if not isinstance(fileobj, PDFStream):\n            error_msg = (\n                \"unable to process PDF: reference for %r is not a \"",
+        "detail": "venv.Scripts.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "LITERAL_EMBEDDEDFILE",
+        "kind": 5,
+        "importPath": "venv.Scripts.dumppdf",
+        "description": "venv.Scripts.dumppdf",
+        "peekOfCode": "LITERAL_EMBEDDEDFILE = LIT(\"EmbeddedFile\")\ndef extractembedded(fname: str, password: str, extractdir: str) -> None:\n    def extract1(objid: int, obj: Dict[str, Any]) -> None:\n        filename = os.path.basename(obj.get(\"UF\") or cast(bytes, obj.get(\"F\")).decode())\n        fileref = obj[\"EF\"].get(\"UF\") or obj[\"EF\"].get(\"F\")\n        fileobj = doc.getobj(fileref.objid)\n        if not isinstance(fileobj, PDFStream):\n            error_msg = (\n                \"unable to process PDF: reference for %r is not a \"\n                \"PDFStream\" % filename",
+        "detail": "venv.Scripts.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "float_or_disabled",
+        "kind": 2,
+        "importPath": "venv.Scripts.pdf2txt",
+        "description": "venv.Scripts.pdf2txt",
+        "peekOfCode": "def float_or_disabled(x: str) -> Optional[float]:\n    if x.lower().strip() == \"disabled\":\n        return None\n    try:\n        return float(x)\n    except ValueError:\n        raise argparse.ArgumentTypeError(f\"invalid float value: {x}\")\ndef extract_text(\n    files: Iterable[str] = [],\n    outfile: str = \"-\",",
+        "detail": "venv.Scripts.pdf2txt",
+        "documentation": {}
+    },
+    {
+        "label": "extract_text",
+        "kind": 2,
+        "importPath": "venv.Scripts.pdf2txt",
+        "description": "venv.Scripts.pdf2txt",
+        "peekOfCode": "def extract_text(\n    files: Iterable[str] = [],\n    outfile: str = \"-\",\n    laparams: Optional[LAParams] = None,\n    output_type: str = \"text\",\n    codec: str = \"utf-8\",\n    strip_control: bool = False,\n    maxpages: int = 0,\n    page_numbers: Optional[Container[int]] = None,\n    password: str = \"\",",
+        "detail": "venv.Scripts.pdf2txt",
+        "documentation": {}
+    },
+    {
+        "label": "create_parser",
+        "kind": 2,
+        "importPath": "venv.Scripts.pdf2txt",
+        "description": "venv.Scripts.pdf2txt",
+        "peekOfCode": "def create_parser() -> argparse.ArgumentParser:\n    parser = argparse.ArgumentParser(description=__doc__, add_help=True)\n    parser.add_argument(\n        \"files\",\n        type=str,\n        default=None,\n        nargs=\"+\",\n        help=\"One or more paths to PDF files.\",\n    )\n    parser.add_argument(",
+        "detail": "venv.Scripts.pdf2txt",
+        "documentation": {}
+    },
+    {
+        "label": "parse_args",
+        "kind": 2,
+        "importPath": "venv.Scripts.pdf2txt",
+        "description": "venv.Scripts.pdf2txt",
+        "peekOfCode": "def parse_args(args: Optional[List[str]]) -> argparse.Namespace:\n    parsed_args = create_parser().parse_args(args=args)\n    # Propagate parsed layout parameters to LAParams object\n    if parsed_args.no_laparams:\n        parsed_args.laparams = None\n    else:\n        parsed_args.laparams = LAParams(\n            line_overlap=parsed_args.line_overlap,\n            char_margin=parsed_args.char_margin,\n            line_margin=parsed_args.line_margin,",
+        "detail": "venv.Scripts.pdf2txt",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "venv.Scripts.pdf2txt",
+        "description": "venv.Scripts.pdf2txt",
+        "peekOfCode": "def main(args: Optional[List[str]] = None) -> int:\n    parsed_args = parse_args(args)\n    outfp = extract_text(**vars(parsed_args))\n    outfp.close()\n    return 0\nif __name__ == \"__main__\":\n    sys.exit(main())",
+        "detail": "venv.Scripts.pdf2txt",
+        "documentation": {}
+    },
+    {
+        "label": "OUTPUT_TYPES",
+        "kind": 5,
+        "importPath": "venv.Scripts.pdf2txt",
+        "description": "venv.Scripts.pdf2txt",
+        "peekOfCode": "OUTPUT_TYPES = ((\".htm\", \"html\"), (\".html\", \"html\"), (\".xml\", \"xml\"), (\".tag\", \"tag\"))\ndef float_or_disabled(x: str) -> Optional[float]:\n    if x.lower().strip() == \"disabled\":\n        return None\n    try:\n        return float(x)\n    except ValueError:\n        raise argparse.ArgumentTypeError(f\"invalid float value: {x}\")\ndef extract_text(\n    files: Iterable[str] = [],",
+        "detail": "venv.Scripts.pdf2txt",
+        "documentation": {}
+    },
+    {
+        "label": "Tee",
+        "kind": 6,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "class Tee:\n    def __init__(self, file):\n        self.f = file\n    def write(self, what):\n        if self.f is not None:\n            try:\n                self.f.write(what.replace(\"\\n\", \"\\r\\n\"))\n            except OSError:\n                pass\n        tee_f.write(what)",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "get_root_hkey",
+        "kind": 2,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def get_root_hkey():\n    try:\n        winreg.OpenKey(\n            winreg.HKEY_LOCAL_MACHINE, root_key_name, 0, winreg.KEY_CREATE_SUB_KEY\n        )\n        return winreg.HKEY_LOCAL_MACHINE\n    except OSError:\n        # Either not exist, or no permissions to create subkey means\n        # must be HKCU\n        return winreg.HKEY_CURRENT_USER",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "create_shortcut",
+        "kind": 2,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def create_shortcut(\n    path, description, filename, arguments=\"\", workdir=\"\", iconpath=\"\", iconindex=0\n):\n    import pythoncom\n    from win32com.shell import shell\n    ilink = pythoncom.CoCreateInstance(\n        shell.CLSID_ShellLink,\n        None,\n        pythoncom.CLSCTX_INPROC_SERVER,\n        shell.IID_IShellLink,",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "get_special_folder_path",
+        "kind": 2,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def get_special_folder_path(path_name):\n    from win32com.shell import shell, shellcon\n    for maybe in \"\"\"\n        CSIDL_COMMON_STARTMENU CSIDL_STARTMENU CSIDL_COMMON_APPDATA\n        CSIDL_LOCAL_APPDATA CSIDL_APPDATA CSIDL_COMMON_DESKTOPDIRECTORY\n        CSIDL_DESKTOPDIRECTORY CSIDL_COMMON_STARTUP CSIDL_STARTUP\n        CSIDL_COMMON_PROGRAMS CSIDL_PROGRAMS CSIDL_PROGRAM_FILES_COMMON\n        CSIDL_PROGRAM_FILES CSIDL_FONTS\"\"\".split():\n        if maybe == path_name:\n            csidl = getattr(shellcon, maybe)",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "CopyTo",
+        "kind": 2,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def CopyTo(desc, src, dest):\n    import win32api\n    import win32con\n    while 1:\n        try:\n            win32api.CopyFile(src, dest, 0)\n            return\n        except win32api.error as details:\n            if details.winerror == 5:  # access denied - user not admin.\n                raise",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "LoadSystemModule",
+        "kind": 2,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def LoadSystemModule(lib_dir, modname):\n    # See if this is a debug build.\n    import importlib.machinery\n    import importlib.util\n    suffix = \"_d\" if \"_d.pyd\" in importlib.machinery.EXTENSION_SUFFIXES else \"\"\n    filename = \"%s%d%d%s.dll\" % (\n        modname,\n        sys.version_info.major,\n        sys.version_info.minor,\n        suffix,",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "SetPyKeyVal",
+        "kind": 2,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def SetPyKeyVal(key_name, value_name, value):\n    root_hkey = get_root_hkey()\n    root_key = winreg.OpenKey(root_hkey, root_key_name)\n    try:\n        my_key = winreg.CreateKey(root_key, key_name)\n        try:\n            winreg.SetValueEx(my_key, value_name, 0, winreg.REG_SZ, value)\n            if verbose:\n                print(f\"-> {root_key_name}\\\\{key_name}[{value_name}]={value!r}\")\n        finally:",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "UnsetPyKeyVal",
+        "kind": 2,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def UnsetPyKeyVal(key_name, value_name, delete_key=False):\n    root_hkey = get_root_hkey()\n    root_key = winreg.OpenKey(root_hkey, root_key_name)\n    try:\n        my_key = winreg.OpenKey(root_key, key_name, 0, winreg.KEY_SET_VALUE)\n        try:\n            winreg.DeleteValue(my_key, value_name)\n            if verbose:\n                print(f\"-> DELETE {root_key_name}\\\\{key_name}[{value_name}]\")\n        finally:",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterCOMObjects",
+        "kind": 2,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def RegisterCOMObjects(register=True):\n    import win32com.server.register\n    if register:\n        func = win32com.server.register.RegisterClasses\n    else:\n        func = win32com.server.register.UnregisterClasses\n    flags = {}\n    if not verbose:\n        flags[\"quiet\"] = 1\n    for module, klass_name in com_modules:",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterHelpFile",
+        "kind": 2,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def RegisterHelpFile(register=True, lib_dir=None):\n    if lib_dir is None:\n        lib_dir = sysconfig.get_paths()[\"platlib\"]\n    if register:\n        # Register the .chm help file.\n        chm_file = os.path.join(lib_dir, \"PyWin32.chm\")\n        if os.path.isfile(chm_file):\n            # This isn't recursive, so if 'Help' doesn't exist, we croak\n            SetPyKeyVal(\"Help\", None, None)\n            SetPyKeyVal(\"Help\\\\Pythonwin Reference\", None, chm_file)",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterPythonwin",
+        "kind": 2,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def RegisterPythonwin(register=True, lib_dir=None):\n    \"\"\"Add (or remove) Pythonwin to context menu for python scripts.\n    ??? Should probably also add Edit command for pys files also.\n    Also need to remove these keys on uninstall, but there's no function\n    to add registry entries to uninstall log ???\n    \"\"\"\n    import os\n    if lib_dir is None:\n        lib_dir = sysconfig.get_paths()[\"platlib\"]\n    classes_root = get_root_hkey()",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "get_shortcuts_folder",
+        "kind": 2,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def get_shortcuts_folder():\n    if get_root_hkey() == winreg.HKEY_LOCAL_MACHINE:\n        try:\n            fldr = get_special_folder_path(\"CSIDL_COMMON_PROGRAMS\")\n        except OSError:\n            # No CSIDL_COMMON_PROGRAMS on this platform\n            fldr = get_special_folder_path(\"CSIDL_PROGRAMS\")\n    else:\n        # non-admin install - always goes in this user's start menu.\n        fldr = get_special_folder_path(\"CSIDL_PROGRAMS\")",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "get_system_dir",
+        "kind": 2,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def get_system_dir():\n    import win32api  # we assume this exists.\n    try:\n        import pythoncom\n        import win32process\n        from win32com.shell import shell, shellcon\n        try:\n            if win32process.IsWow64Process():\n                return shell.SHGetSpecialFolderPath(0, shellcon.CSIDL_SYSTEMX86)\n            return shell.SHGetSpecialFolderPath(0, shellcon.CSIDL_SYSTEM)",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "fixup_dbi",
+        "kind": 2,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def fixup_dbi():\n    # We used to have a dbi.pyd with our .pyd files, but now have a .py file.\n    # If the user didn't uninstall, they will find the .pyd which will cause\n    # problems - so handle that.\n    import win32api\n    import win32con\n    pyd_name = os.path.join(os.path.dirname(win32api.__file__), \"dbi.pyd\")\n    pyd_d_name = os.path.join(os.path.dirname(win32api.__file__), \"dbi_d.pyd\")\n    py_name = os.path.join(os.path.dirname(win32con.__file__), \"dbi.py\")\n    for this_pyd in (pyd_name, pyd_d_name):",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "install",
+        "kind": 2,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def install(lib_dir):\n    import traceback\n    # The .pth file is now installed as a regular file.\n    # Create the .pth file in the site-packages dir, and use only relative paths\n    # We used to write a .pth directly to sys.prefix - clobber it.\n    if os.path.isfile(os.path.join(sys.prefix, \"pywin32.pth\")):\n        os.unlink(os.path.join(sys.prefix, \"pywin32.pth\"))\n    # The .pth may be new and therefore not loaded in this session.\n    # Setup the paths just in case.\n    for name in \"win32 win32\\\\lib Pythonwin\".split():",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "uninstall",
+        "kind": 2,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def uninstall(lib_dir):\n    # First ensure our system modules are loaded from pywin32_system, so\n    # we can remove the ones we copied...\n    LoadSystemModule(lib_dir, \"pywintypes\")\n    LoadSystemModule(lib_dir, \"pythoncom\")\n    try:\n        RegisterCOMObjects(False)\n    except Exception as why:\n        print(f\"Failed to unregister COM objects: {why}\")\n    try:",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "verify_destination",
+        "kind": 2,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def verify_destination(location: str) -> str:\n    location = os.path.abspath(location)\n    if not os.path.isdir(location):\n        raise argparse.ArgumentTypeError(\n            f'Path \"{location}\" is not an existing directory!'\n        )\n    return location\ndef main():\n    parser = argparse.ArgumentParser(\n        formatter_class=argparse.RawDescriptionHelpFormatter,",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser(\n        formatter_class=argparse.RawDescriptionHelpFormatter,\n        description=\"\"\"A post-install script for the pywin32 extensions.\n    * Typical usage:\n    > python -m pywin32_postinstall -install\n    * or (shorter but you don't have control over which python environment is used)\n    > pywin32_postinstall -install\n    You need to execute this script, with a '-install' parameter,\n    to ensure the environment is setup correctly to install COM objects, services, etc.",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "tee_f",
+        "kind": 5,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "tee_f = open(\n    os.path.join(\n        tempfile.gettempdir(),  # Send output somewhere so it can be found if necessary...\n        \"pywin32_postinstall.log\",\n    ),\n    \"w\",\n)\nclass Tee:\n    def __init__(self, file):\n        self.f = file",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "sys.stderr",
+        "kind": 5,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "sys.stderr = Tee(sys.stderr)\nsys.stdout = Tee(sys.stdout)\ncom_modules = [\n    # module_name,                      class_names\n    (\"win32com.servers.interp\", \"Interpreter\"),\n    (\"win32com.servers.dictionary\", \"DictionaryPolicy\"),\n    (\"win32com.axscript.client.pyscript\", \"PyScript\"),\n]\n# Is this a 'silent' install - ie, avoid all dialogs.\n# Different than 'verbose'",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "sys.stdout",
+        "kind": 5,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "sys.stdout = Tee(sys.stdout)\ncom_modules = [\n    # module_name,                      class_names\n    (\"win32com.servers.interp\", \"Interpreter\"),\n    (\"win32com.servers.dictionary\", \"DictionaryPolicy\"),\n    (\"win32com.axscript.client.pyscript\", \"PyScript\"),\n]\n# Is this a 'silent' install - ie, avoid all dialogs.\n# Different than 'verbose'\nsilent = 0",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "com_modules",
+        "kind": 5,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "com_modules = [\n    # module_name,                      class_names\n    (\"win32com.servers.interp\", \"Interpreter\"),\n    (\"win32com.servers.dictionary\", \"DictionaryPolicy\"),\n    (\"win32com.axscript.client.pyscript\", \"PyScript\"),\n]\n# Is this a 'silent' install - ie, avoid all dialogs.\n# Different than 'verbose'\nsilent = 0\n# Verbosity of output messages.",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "silent",
+        "kind": 5,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "silent = 0\n# Verbosity of output messages.\nverbose = 1\nroot_key_name = \"Software\\\\Python\\\\PythonCore\\\\\" + sys.winver\ndef get_root_hkey():\n    try:\n        winreg.OpenKey(\n            winreg.HKEY_LOCAL_MACHINE, root_key_name, 0, winreg.KEY_CREATE_SUB_KEY\n        )\n        return winreg.HKEY_LOCAL_MACHINE",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "verbose",
+        "kind": 5,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "verbose = 1\nroot_key_name = \"Software\\\\Python\\\\PythonCore\\\\\" + sys.winver\ndef get_root_hkey():\n    try:\n        winreg.OpenKey(\n            winreg.HKEY_LOCAL_MACHINE, root_key_name, 0, winreg.KEY_CREATE_SUB_KEY\n        )\n        return winreg.HKEY_LOCAL_MACHINE\n    except OSError:\n        # Either not exist, or no permissions to create subkey means",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "root_key_name",
+        "kind": 5,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "root_key_name = \"Software\\\\Python\\\\PythonCore\\\\\" + sys.winver\ndef get_root_hkey():\n    try:\n        winreg.OpenKey(\n            winreg.HKEY_LOCAL_MACHINE, root_key_name, 0, winreg.KEY_CREATE_SUB_KEY\n        )\n        return winreg.HKEY_LOCAL_MACHINE\n    except OSError:\n        # Either not exist, or no permissions to create subkey means\n        # must be HKCU",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "run_test",
+        "kind": 2,
+        "importPath": "venv.Scripts.pywin32_testall",
+        "description": "venv.Scripts.pywin32_testall",
+        "peekOfCode": "def run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.\n    cmd = [sys.executable, \"-u\", scriptname] + cmdline_extras\n    print(\"--- Running '%s' ---\" % script)\n    sys.stdout.flush()\n    result = subprocess.run(cmd, check=False, cwd=dirname)\n    print(f\"*** Test script '{script}' exited with {result.returncode}\")\n    sys.stdout.flush()\n    if result.returncode:",
+        "detail": "venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "find_and_run",
+        "kind": 2,
+        "importPath": "venv.Scripts.pywin32_testall",
+        "description": "venv.Scripts.pywin32_testall",
+        "peekOfCode": "def find_and_run(possible_locations, extras):\n    for maybe in possible_locations:\n        if os.path.isfile(maybe):\n            run_test(maybe, extras)\n            break\n    else:\n        raise RuntimeError(\n            \"Failed to locate a test script in one of %s\" % possible_locations\n        )\ndef main():",
+        "detail": "venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "venv.Scripts.pywin32_testall",
+        "description": "venv.Scripts.pywin32_testall",
+        "peekOfCode": "def main():\n    import argparse\n    code_directories = [project_root] + site_packages\n    parser = argparse.ArgumentParser(\n        description=\"A script to trigger tests in all subprojects of PyWin32.\"\n    )\n    parser.add_argument(\n        \"-no-user-interaction\",\n        default=False,\n        action=\"store_true\",",
+        "detail": "venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "project_root",
+        "kind": 5,
+        "importPath": "venv.Scripts.pywin32_testall",
+        "description": "venv.Scripts.pywin32_testall",
+        "peekOfCode": "project_root = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))\nsite_packages = [site.getusersitepackages()] + site.getsitepackages()\nfailures = []\n# Run a test using subprocess and wait for the result.\n# If we get an returncode != 0, we know that there was an error, but we don't\n# abort immediately - we run as many tests as we can.\ndef run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.\n    cmd = [sys.executable, \"-u\", scriptname] + cmdline_extras",
+        "detail": "venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "site_packages",
+        "kind": 5,
+        "importPath": "venv.Scripts.pywin32_testall",
+        "description": "venv.Scripts.pywin32_testall",
+        "peekOfCode": "site_packages = [site.getusersitepackages()] + site.getsitepackages()\nfailures = []\n# Run a test using subprocess and wait for the result.\n# If we get an returncode != 0, we know that there was an error, but we don't\n# abort immediately - we run as many tests as we can.\ndef run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.\n    cmd = [sys.executable, \"-u\", scriptname] + cmdline_extras\n    print(\"--- Running '%s' ---\" % script)",
+        "detail": "venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "failures",
+        "kind": 5,
+        "importPath": "venv.Scripts.pywin32_testall",
+        "description": "venv.Scripts.pywin32_testall",
+        "peekOfCode": "failures = []\n# Run a test using subprocess and wait for the result.\n# If we get an returncode != 0, we know that there was an error, but we don't\n# abort immediately - we run as many tests as we can.\ndef run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.\n    cmd = [sys.executable, \"-u\", scriptname] + cmdline_extras\n    print(\"--- Running '%s' ---\" % script)\n    sys.stdout.flush()",
+        "detail": "venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def main():\n    \"\"\"\n    Main function to run the command-line interface for the RAG application.\n    \"\"\"\n    print(\"🤖 Initializing Diabetes RAG Assistant...\")\n    try:\n        rag_chain = get_rag_chain()\n        print(\"✅ Assistant is ready. Ask your questions below.\")\n        print(\"   (Type 'exit' or 'quit' to end the session)\")\n        while True:",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "ingest",
+        "description": "ingest",
+        "peekOfCode": "def main():\n    \"\"\"\n    Main function to perform data ingestion, chunking, embedding, and storage.\n    \"\"\"\n    print(\"🚀 Starting data ingestion process with Gemini embeddings...\")\n    # 1. Load documents\n    print(f\"📂 Loading documents...\")\n    all_docs = utils.load_documents(config.DATA_DIR_GENERAL) + utils.load_documents(config.DATA_DIR_PATIENTS)\n    if not all_docs:\n        print(\"No documents found. Exiting.\")",
+        "detail": "ingest",
+        "documentation": {}
+    },
+    {
+        "label": "get_api_key",
+        "kind": 2,
+        "importPath": "serp_api_scrapping",
+        "description": "serp_api_scrapping",
+        "peekOfCode": "def get_api_key():\n    \"\"\"\n    Retrieves the SerpApi key from an environment variable.\n    \"\"\"\n    api_key = os.getenv(\"SERPAPI_API_KEY\")\n    if not api_key:\n        raise ValueError(\"SERPAPI_API_KEY environment variable not set. Please set it to your SerpApi key.\")\n    return api_key\ndef find_places(query, location, api_key):\n    \"\"\"",
+        "detail": "serp_api_scrapping",
+        "documentation": {}
+    },
+    {
+        "label": "find_places",
+        "kind": 2,
+        "importPath": "serp_api_scrapping",
+        "description": "serp_api_scrapping",
+        "peekOfCode": "def find_places(query, location, api_key):\n    \"\"\"\n    Searches for places on Google Maps using SerpApi and extracts relevant details.\n    Args:\n        query (str): The type of place to search for (e.g., \"diabetes hospitals\").\n        location (str): The location to search near.\n        api_key (str): Your SerpApi API key.\n    Returns:\n        list: A list of dictionaries, where each dictionary contains details of a place.\n    \"\"\"",
+        "detail": "serp_api_scrapping",
+        "documentation": {}
+    },
+    {
+        "label": "display_sorted_results",
+        "kind": 2,
+        "importPath": "serp_api_scrapping",
+        "description": "serp_api_scrapping",
+        "peekOfCode": "def display_sorted_results(title, places, emoji=\"📍\", limit=None):\n    \"\"\"\n    Sorts places, prints them, highlights the best, and optionally limits the list size.\n    \"\"\"\n    print(\"-\" * 60)\n    print(f\"{emoji} {title.upper()} {emoji}\")\n    print(\"-\" * 60)\n    if not places:\n        print(\"No information to display.\")\n        return",
+        "detail": "serp_api_scrapping",
+        "documentation": {}
+    }
+]

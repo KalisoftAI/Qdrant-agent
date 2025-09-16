@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}Register - Select Role{% endblock %}
+
+{% block content %}
+<div class="max-w-md mx-auto px-4">
+    <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-lg border border-gray-200 dark:border-gray-700 p-8 text-center">
+        <h1 class="text-3xl font-bold text-gray-900 dark:text-white mb-6">Join Us</h1>
+        <p class="text-gray-600 dark:text-gray-300 mb-8">
+            Are you a healthcare professional or a patient? Please select your role to continue with the registration.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="{% url 'accounts:doctor_register' %}" class="w-full text-white bg-teal-600 hover:bg-teal-700 focus:ring-4 focus:outline-none focus:ring-teal-300 font-medium rounded-lg text-sm px-5 py-3 text-center dark:bg-teal-500 dark:hover:bg-teal-600 dark:focus:ring-teal-800">
+                Register as a Doctor
+            </a>
+            <a href="{% url 'accounts:patient_register' %}" class="w-full text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-3 text-center dark:bg-blue-500 dark:hover:bg-blue-600 dark:focus:ring-blue-800">
+                Register as a Patient
+            </a>
+        </div>
+    </div>
+</div>
+{% endblock %}

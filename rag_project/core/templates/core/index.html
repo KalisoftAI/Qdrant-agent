@@ -1,57 +1,42 @@
+{% extends 'base.html' %}
 {% load static %}
-<!DOCTYPE html>
-<html lang="en" class="light">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Agent for Healthcare</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="{% static 'core/css/style.css' %}">
-</head>
-<body class="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 font-sans antialiased transition-colors duration-300">
 
-    {% include 'partials/navbar.html' %}
-
-    <main class="pt-24 pb-12">
-        <div class="max-w-4xl mx-auto px-4">
-            
-            <section class="text-center mb-16">
-                <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-white mb-4">
-                    Intelligent Assistant for <span class="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-500">Healthcare Professionals</span>
-                </h1>
-                <p class="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-                    Get instant, accurate answers from your internal documents. Powered by Gemini.
-                </p>
-            </section>
-
-            <section id="chat-container" class="bg-white dark:bg-gray-800 rounded-2xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden">
-                <div id="chat-history" class="p-6 h-96 overflow-y-auto space-y-6">
-                    <div class="flex items-start gap-3">
-                        <div class="flex-shrink-0 w-10 h-10 rounded-full bg-gradient-to-br from-teal-400 to-blue-500 flex items-center justify-center text-white font-bold">
-                            AI
-                        </div>
-                        <div class="bg-gray-100 dark:bg-gray-700 p-4 rounded-xl rounded-tl-none max-w-lg">
-                            <p>Hello! I am ready to assist you. Ask me anything about your documents.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="p-4 bg-gray-50 dark:bg-gray-800/50 border-t border-gray-200 dark:border-gray-700">
-                    <form id="chat-form" class="flex items-center gap-4">
-                        {% csrf_token %}
-                        <input type="text" id="question-input" class="w-full bg-gray-100 dark:bg-gray-700 border-gray-300 dark:border-gray-600 text-gray-900 dark:text-white text-sm rounded-lg focus:ring-teal-500 focus:border-teal-500 block p-3 transition" placeholder="Ask a question..." required>
-                        <button type="submit" id="submit-button" class="inline-flex items-center justify-center p-3 text-sm font-medium text-white bg-teal-600 rounded-lg hover:bg-teal-700 focus:ring-4 focus:outline-none focus:ring-teal-300 dark:bg-teal-500 dark:hover:bg-teal-600 dark:focus:ring-teal-800 transition-colors disabled:opacity-50 disabled:cursor-not-allowed">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M12 5l7 7-7 7"></path></svg>
-                            <span class="sr-only">Send message</span>
-                        </button>
-                    </form>
-                </div>
-            </section>
+{% block content %}
+<div class="max-w-4xl mx-auto px-4 space-y-16">
+    <section id="chat-container" class="bg-white dark:bg-gray-800 rounded-2xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden">
+        <div class="p-4 bg-gray-50 dark:bg-gray-900/50 border-b border-gray-200 dark:border-gray-700 flex justify-between items-center">
+            <h2 class="text-lg font-bold">Screening Conversation</h2>
+            <button id="reset-button" class="text-sm text-white bg-red-600 hover:bg-red-700 font-medium rounded-lg px-4 py-2 transition-colors">
+                Start Over
+            </button>
         </div>
-    </main>
-    
-    {% include 'partials/footer.html' %}
+        
+        <div id="chat-history" class="p-6 h-96 overflow-y-auto space-y-6"></div>
+        
+        <div class="p-4 bg-gray-50 dark:bg-gray-800/50 border-t border-gray-200 dark:border-gray-700">
+            <form id="chat-form" class="flex items-center gap-4">
+                {% csrf_token %}
+                <input type="text" id="question-input" class="w-full bg-gray-100 dark:bg-gray-700 border-gray-300 dark:border-gray-600 text-gray-900 dark:text-white text-sm rounded-lg focus:ring-teal-500 focus:border-teal-500 block p-3 transition" placeholder="Type your answer here..." required>
+                <button type="submit" id="submit-button" class="inline-flex items-center justify-center p-3 text-sm font-medium text-white bg-teal-600 rounded-lg hover:bg-teal-700 focus:ring-4 focus:outline-none focus:ring-teal-300 dark:bg-teal-500 dark:hover:bg-teal-600 dark:focus:ring-teal-800 transition-colors disabled:opacity-50 disabled:cursor-not-allowed">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M12 5l7 7-7 7"></path></svg>
+                </button>
+            </form>
+        </div>
+    </section>
 
-    <script src="{% static 'core/js/main.js' %}"></script>
-</body>
-</html>
+    <section id="appointments-section" class="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-6 border border-gray-200 dark:border-gray-700">
+        <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">My Appointments</h2>
+        <div id="appointments-list" class="space-y-4">
+            <p class="text-gray-500 dark:text-gray-400">Your appointment statuses will appear here.</p>
+        </div>
+    </section>
+</div>
+
+<div id="booking-modal-backdrop" class="hidden fixed inset-0 bg-gray-900 bg-opacity-75 transition-opacity"></div>
+<div id="booking-modal" class="hidden fixed inset-0 z-10 w-screen overflow-y-auto">
+    <div class="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0">
+        <div id="modal-panel" class="relative transform overflow-hidden rounded-lg bg-white dark:bg-gray-800 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg">
+        </div>
+    </div>
+</div>
+{% endblock %}

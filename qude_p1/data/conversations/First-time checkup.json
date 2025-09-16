@@ -1,0 +1,58 @@
+{
+  "patient_id": "P003",
+  "conversation_date": "2025-09-15",
+  "case_type": "First-Time Checkup",
+  "intent": "First_Time_Checkup",
+  "summary": "The patient presented with symptoms of thirst, frequent urination, fatigue, weight loss, blurred vision, and slow-healing cuts. The doctor suspects diabetes and ordered fasting blood sugar and HbA1c tests. The patient was advised to avoid sugary foods until results are ready.",
+  "recommendations": [
+    "Schedule fasting blood sugar and HbA1c tests.",
+    "Avoid sugary drinks and sweets until test results are available.",
+    "Follow up with the doctor after test results are ready."
+  ],
+  "transcript": [
+    {
+      "speaker": "Doctor",
+      "line": "Good morning, please come in and have a seat. What brings you to see me today?"
+    },
+    {
+      "speaker": "Patient",
+      "line": "Good morning, Doctor. For the past month, I've been feeling really off. I'm incredibly thirsty all the time, I have to urinate constantly, and I feel exhausted no matter how much I sleep. I've also lost a few kilograms without trying."
+    },
+    {
+      "speaker": "Doctor",
+      "line": "I understand. These are important symptoms. Have you noticed anything else? For example, any changes in your vision, or perhaps any cuts or sores that seem to be healing very slowly?"
+    },
+    {
+      "speaker": "Patient",
+      "line": "Yes, actually. My vision has been a bit blurry lately, which I thought was just eye strain. And I did get a small cut on my hand last week that's still not fully healed."
+    },
+    {
+      "speaker": "Doctor",
+      "line": "Is there any history of diabetes in your immediate family, like your parents or siblings?"
+    },
+    {
+      "speaker": "Patient",
+      "line": "My father has type 2 diabetes."
+    },
+    {
+      "speaker": "Doctor",
+      "line": "Thank you. Based on your symptoms and your family history, it is possible that you may have diabetes. To be certain, we need to run a few blood tests. We will do a fasting blood sugar test and another one called an HbA1c, which gives us an average of your blood sugar over the last three months."
+    },
+    {
+      "speaker": "Patient",
+      "line": "Diabetes? I see. Is it serious, Doctor?"
+    },
+    {
+      "speaker": "Doctor",
+      "line": "It is a condition that needs to be managed carefully, but the good news is that we have excellent ways to control it. The first step is getting a clear diagnosis. After we get the test results, we will sit down and discuss a complete plan. For now, please avoid sugary drinks and sweets. We'll get this under control together."
+    },
+    {
+      "speaker": "Patient",
+      "line": "Okay, Doctor. Thank you for explaining."
+    },
+    {
+      "speaker": "Doctor",
+      "line": "You're welcome. The nurse will give you the details for the tests. We'll schedule a follow-up for a few days from now."
+    }
+  ]
+}

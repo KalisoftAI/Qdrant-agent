@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block title %}Login{% endblock %}
+
+{% block content %}
+<div class="max-w-md mx-auto px-4">
+    <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-lg border border-gray-200 dark:border-gray-700 p-8">
+        <h1 class="text-3xl font-bold text-gray-900 dark:text-white mb-6 text-center">Login to Your Account</h1>
+        <form method="post" class="space-y-6">
+            {% csrf_token %}
+            
+            {% if form.non_field_errors %}
+                <div class="p-4 mb-4 text-sm text-red-800 rounded-lg bg-red-50 dark:bg-gray-800 dark:text-red-400" role="alert">
+                    {% for error in form.non_field_errors %}
+                        {{ error }}
+                    {% endfor %}
+                </div>
+            {% endif %}
+
+            <div>
+                <label for="id_username" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email Address</label>
+                <input type="email" name="username" id="id_username" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-teal-500 focus:border-teal-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white" required>
+            </div>
+            <div>
+                <label for="id_password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Password</label>
+                <input type="password" name="password" id="id_password" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-teal-500 focus:border-teal-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white" required>
+            </div>
+            
+            <button type="submit" class="w-full text-white bg-teal-600 hover:bg-teal-700 focus:ring-4 focus:outline-none focus:ring-teal-300 font-medium rounded-lg text-sm px-5 py-3 text-center dark:bg-teal-500 dark:hover:bg-teal-600 dark:focus:ring-teal-800">Login</button>
+            
+            <p class="text-sm font-light text-gray-500 dark:text-gray-400">
+                Don’t have an account yet? <a href="{% url 'accounts:register_selection' %}" class="font-medium text-teal-600 hover:underline dark:text-teal-500">Sign up</a>
+            </p>
+        </form>
+    </div>
+</div>
+{% endblock %}

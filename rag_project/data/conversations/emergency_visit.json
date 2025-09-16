@@ -1,0 +1,81 @@
+{
+  "patient_id": "P001",
+  "conversation_date": "2025-09-15",
+  "case_type": "Emergency Visit",
+  "intent": "Emergency_Diabetes_Care",
+  "summary": "Mrs. Gupta experienced severe hypoglycemia after taking her insulin but skipping breakfast. Her blood sugar dropped to 45 mg/dL. The doctor and nurse administered IV glucose, and she recovered quickly. The doctor educated Rohan on emergency care for low blood sugar and emphasized the importance of never skipping meals after taking insulin.",
+  "transcript": [
+    {
+      "speaker": "Narrator",
+      "line": "A young man, Rohan, rushes into the clinic supporting his mother, Mrs. Gupta, who looks pale, is sweating profusely, and seems very disoriented."
+    },
+    {
+      "speaker": "Rohan",
+      "line": "Doctor, please help! My mother... I don't know what's wrong. She suddenly became very dizzy and started talking nonsense. She has diabetes."
+    },
+    {
+      "speaker": "Doctor",
+      "line": "(Immediately gets up and helps Mrs. Gupta to the examination bed) Okay, stay calm. When did this start? Nurse, get the glucometer, now!"
+    },
+    {
+      "speaker": "Rohan",
+      "line": "About 15 minutes ago. She was fine, and then she started sweating and shaking. I tried to give her some juice, but she could barely swallow."
+    },
+    {
+      "speaker": "Doctor",
+      "line": "What was her last meal, and when did she take her insulin or medication?"
+    },
+    {
+      "speaker": "Rohan",
+      "line": "She took her morning insulin about an hour ago but got busy with a phone call and skipped her breakfast."
+    },
+    {
+      "speaker": "Narrator",
+      "line": "The nurse quickly does a finger-prick blood sugar test."
+    },
+    {
+      "speaker": "Doctor",
+      "line": "Okay, that's likely the cause. Her blood sugar is 45 milligrams per deciliter. That's dangerously low. This is severe hypoglycemia. We need to act fast."
+    },
+    {
+      "speaker": "Narrator",
+      "line": "The doctor and nurse administer an IV injection of dextrose."
+    },
+    {
+      "speaker": "Doctor",
+      "line": "We are giving her a glucose injection directly into her vein. It will work much faster than trying to make her eat or drink. She should start feeling better in a few minutes."
+    },
+    {
+      "speaker": "Rohan",
+      "line": "Oh, thank God. I was so scared."
+    },
+    {
+      "speaker": "Narrator",
+      "line": "A few minutes later, Mrs. Gupta's eyes become more focused, and she looks around."
+    },
+    {
+      "speaker": "Mrs. Gupta",
+      "line": "(Weakly) What... what happened? Where am I?"
+    },
+    {
+      "speaker": "Doctor",
+      "line": "You're in the clinic, Mrs. Gupta. Your blood sugar dropped very low. How are you feeling now?"
+    },
+    {
+      "speaker": "Mrs. Gupta",
+      "line": "A little better. Still shaky. I feel so foolish... I forgot to eat."
+    },
+    {
+      "speaker": "Doctor",
+      "line": "It happens, but it's a very important lesson. You can never skip a meal after taking your insulin. It can be life-threatening. Rohan, if this ever happens again and she is conscious, immediately give her 15 grams of fast-acting sugar – like half a glass of juice, some regular soda, or 3-4 glucose tablets. If she is unconscious, do not put anything in her mouth and call for an ambulance immediately."
+    },
+    {
+      "speaker": "Rohan",
+      "line": "I understand, Doctor. Thank you so much."
+    },
+    {
+      "speaker": "Doctor",
+      "line": "We'll keep her here for another half-hour to monitor her sugar levels and make sure they are stable. Once she's feeling up to it, she must have a proper meal."
+    }
+  ]
+}
