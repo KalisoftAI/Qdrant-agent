@@ -1,6 +1,21 @@
 
 # 🩺 Diabetes RAG System with Qdrant & Google Gemini
 
+
+## The Problem
+Managing diabetes is a relentless, 24/7 challenge that creates a significant information gap between patients and doctors.
+
+### For Patients:
+The daily burden of tracking blood sugar, diet, exercise, and mental well-being is overwhelming and often done manually. This fragmented approach makes it difficult to see long-term trends and get timely advice, leading to stress and suboptimal health outcomes, especially for those with busy schedules.
+
+### For Doctors:
+Consultations are often too short to capture a complete picture of a patient's condition. Lacking continuous data, doctors must rely on incomplete patient recall to make critical decisions about medication, diet, and lifestyle. This makes personalizing care and staying ahead of potential complications difficult, particularly for new patients with no prior history.
+
+This project aims to bridge that gap with an intelligent AI assistant that provides proactive, personalized support for patients and delivers actionable insights to doctors.
+
+![Architecture](./Diabetes_bot.svg)
+
+
 This project implements a **Retrieval-Augmented Generation (RAG)** pipeline focused on **diabetes management**.  
 It uses **Qdrant** as a vector database and **Google Gemini embeddings** for semantic search and question answering.
 
