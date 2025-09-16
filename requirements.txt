@@ -1,0 +1,25 @@
+
+# Core LangChain and Google GenAI
+langchain
+langchain-community
+langchain-core
+langchain-google-genai
+
+# Vector Database
+qdrant-client
+
+# Web Framework
+Django
+djangorestframework
+django-cors-headers
+
+# Utilities
+python-dotenv
+pypdf
+Pillow
+gunicorn # For production deployment
+
+# Document Loaders (unstructured requires other system dependencies)
+unstructured[pdf,image]
+google-search-results
+geocoder
